@@ -1,0 +1,51 @@
+/*MAIN*/
+main{
+    margin-top: 10px;
+    grid-area: main;
+    display: grid;
+    section {
+        @include bordes(10px, 10px);
+        display: grid;
+        h1{
+            color: map-get($paleta, secondary-color);
+            text-align: right;
+            font-size: $font-primary-size;
+            padding: 10px;
+            margin: 10px 10px 10px 20px;
+            font-weight: 800;
+        }
+        h2{
+            @include bordes(1px, 1px);
+            font-weight: 600;
+            font-size: $font-secondary-size;
+            color: map-get($paleta, terciary-color);
+        }
+        h3{
+            text-align: center;
+            font-size: $font-secondary-size;
+            @include bordes(20px, 10px);
+            font-weight: 800;
+            color: map-get($paleta, terciary-color);
+        }
+        img{
+            @include bordes(10px, 10px);
+        }
+        ul{
+            @include bordes(10px, 10px);
+            li{
+                font-size: 20px;
+                @include bordes(10px, 10px);
+            }
+        }
+        p{
+            font-size: 20px;
+            @include bordes(10px, 10px);
+        }
+        iframe{
+            @include bordes(10px, 10px);
+        }
+        form{
+            @include bordes(10px, 10px);
+        }
+    }
+}

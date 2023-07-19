@@ -1,0 +1,32 @@
+/*TITULOS*/
+#tituloContacto{
+    background-color: map-get($paleta, primary-color);
+    color: map-get($paleta, secondary-color);;
+    font-size: $font-primary-size;
+    text-align: center;
+    @include bordes(10px, 10px);
+    font-weight: 800;
+}
+#tituloEmpresa{
+    background-color: map-get($paleta, primary-color);
+    font-size: $font-primary-size;
+    text-align: center;
+    @include bordes(10px, 10px);
+    font-weight: 800;
+}
+#tituloIndex{
+    font-size: $font-primary-size;
+    text-align: right;
+    @include bordes(10px, 10px);
+    color: map-get($paleta, terciary-color);
+    margin-top: 40vh;
+    font-weight: 800;
+}
+.titulos{
+    color: map-get($paleta, secondary-color);
+    background-color: map-get($paleta, primary-color);
+    text-align: right;
+    font-size: $font-primary-size;
+    @include bordes(10px, 10px);
+    font-weight: 800;
+}

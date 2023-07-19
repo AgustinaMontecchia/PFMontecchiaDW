@@ -1,0 +1,22 @@
+/*FONDOS*/
+@mixin fondoIndex{
+    background-image: url(../img/imagen\ inicio.png);
+    height: $vh-height;
+    width: 99%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include bordes(10px, 10px);
+}
+.fondoContacto{
+    @include fondoIndex;
+    background-image: url(../img/imagen\ contacto.png);
+}
+.fondoPinturas{
+    @include fondoIndex;
+    background-image: url(../img/imagen\ pinturas.png);
+}
+.fondoAccesorios{
+    @include fondoIndex;
+    background-image: url(../img/imagen\ accesorios.png);
+}

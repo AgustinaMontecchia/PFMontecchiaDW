@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/Logoheader.png">
-    <title>Inicio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Inicio | CamiFlex</title>
+    <meta name="description" content="En CamiFlex solucionamos con colores esos problemas del hogar. Trabajamos con las ultimas tecnologías en el mercado.">
+    <meta name="keywords" content="PINTURAS, PINTURERIA, MEMBRANA, LATEX, ACCESORIOS, PINCELES, NOGOPAINT, IMPREGNANTE">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container text-center ">
+            <div class="container text-center">
                     <a class="navbar-brand" href="./index.html">
                         <img src="./img/Logoheader.png" alt="logo camiflex">
                     </a>
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 </div>
@@ -46,19 +49,63 @@
     </header>
     <main>
         <section class="fondoIndex">
-            <div>
-                <div class="col-md-6 ms-auto" id="tituloIndex">
+            <div class="animate__animated animate__zoomIn">
+                <div class="col-xl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 ms-auto" id="tituloIndex">
                     <h1 class="display-3 fw-bold">SOLUCIONA CON COLORES ESOS PROBLEMAS EN TU HOGAR</h1>
                 </div>
             </div>
         </section>
+        <section class="animate__animated animate__fadeIn">
+            <article>
+                <h2 class="titulos">PRODUCTOS DESTACADOS</h2>
+            </article>
+            <div class="row row-cols-xl-3 row-cols-xl-4 row-cols-lg-3 row-cols-lg-4 row-cols-md-3 row-cols-md-4 row-cols-sm-3 row-cols-sm-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/producto1.png" class="card-img-top" alt="Membrana líquida elástica">
+                            <div class="card-body">
+                                <h5 class="card-title">Membrana líquida elástica</h5>
+                                <p class="card-text"></p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/producto2.png" class="card-img-top" alt="Látex obra exterior e interior">
+                        <div class="card-body">
+                            <h5 class="card-title">Látex obra exterior e interior</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/producto3.png" class="card-img-top" alt="Impregnante maderas">
+                        <div class="card-body">
+                            <h5 class="card-title">Impregnante maderas</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../img/producto4.png" class="card-img-top" alt="Acrílico premium">
+                        <div class="card-body">
+                            <h5 class="card-title">Acrílico premium</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <section>
             <article>
-                <h3>Nuestras Marcas</h3>
+                <h3>NUESTRAS MARCAS</h3>
             </article>
             <div class="nuestrasMarcas">
-                <img src="./img/nogopaint.png" alt="imagen logo nogopaint">
-                <img src="./img/tiburon.png" alt="imagen logo tiburon">
+                <a href="https://nogopaint.com.ar/" target="_blank">
+                <img src="./img/nogopaint.png" alt="imagen logo nogopaint"></a>
+                <a href="https://www.pincelestiburon.com.ar/" target="_blank">
+                <img src="./img/tiburon.png" alt="imagen logo tiburon"></a>
             </div>
         </section>
     </main>
