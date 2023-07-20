@@ -1,0 +1,63 @@
+/*MAIN*/
+main{
+    margin-top: 10px;
+    grid-area: main;
+    display: grid;
+    section{
+        padding: 10px;
+        margin: 10px;
+        display: grid;
+        h1{
+            color: map-get($paleta, secondary-color);
+            text-align: right;
+            font-size: $font-primary-size;
+            padding: 10px;
+            margin: 10px 10px 10px 20px;
+            font-weight: 800;
+        }
+        h2{
+            padding: 1px;
+            margin: 1px;
+            font-weight: 600;
+            font-size: $font-secondary-size;
+            color: map-get($paleta, terciary-color);
+        }
+        h3{
+            text-align: center;
+            font-size: $font-secondary-size;
+            padding: 10px;
+            margin: 20px;
+            font-weight: 800;
+            color: map-get($paleta, terciary-color);
+        }
+        img{
+            padding: 10px;
+            margin: 10px;
+        }
+        ul{
+            padding: 10px;
+            margin: 10px;
+            li{
+                font-size: 20px;
+                padding: 10px;
+                margin: 10px;
+            }
+        }
+        p{
+            font-size: 20px;
+            padding: 10px;
+            margin: 10px;
+        }
+        iframe{
+            padding: 10px;
+            margin: 10px;
+        }
+        form{
+            padding: 10px;
+            margin: 10px;
+        }
+        div{
+            margin-top: 10px;
+        }
+    }
+}

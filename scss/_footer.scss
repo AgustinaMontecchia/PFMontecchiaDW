@@ -1,0 +1,35 @@
+/*FOOTER*/
+footer{
+    grid-area: footer;
+    background-color: map-get($paleta, primary-color);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    div{
+        padding: 10px;
+        margin: 10px;
+        width: 300px;
+        img{
+            width: 200px;
+        }
+    }
+    nav{
+        padding: 10px;
+        margin: 10px;
+        ul{
+            list-style-type: none;
+            padding: 10px;
+            margin: 10px;
+            display: flex;
+            li{
+                padding: 10px;
+                margin: 10px;
+                a{
+                    padding: 10px;
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}

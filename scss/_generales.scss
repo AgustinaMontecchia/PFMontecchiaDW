@@ -1,0 +1,44 @@
+/*RESET CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "main main main main"
+    "footer footer footer footer"
+    ;
+}
+button{
+    background-color: map-get($paleta, primary-color);
+}
+.caja{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.productos{
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(3, 400px);
+}
+.nuestrasMarcas{
+    display: flex;
+    justify-content: center;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+}
