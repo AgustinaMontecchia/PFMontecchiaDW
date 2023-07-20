@@ -1,7 +1,7 @@
 /*TITULOS*/
 #tituloContacto{
     background-color: map-get($paleta, primary-color);
-    color: map-get($paleta, secondary-color);;
+    color: map-get($paleta, secondary-color);
     font-size: $font-primary-size;
     text-align: center;
     @include bordes(10px, 10px);
