@@ -2,7 +2,6 @@
 *{
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
     font-family: 'Montserrat', sans-serif;
 }
 body{
@@ -21,18 +20,21 @@ button{
     font-size: 25px;
     padding: 10px;
     margin: 10px;
-    display: flex;
-    flex-wrap: wrap;
+}
+.cajaEmpresa{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
 }
 .productos{
     padding: 10px;
     margin: 10px;
-    align-items: center;
-    justify-items: center;
-    justify-content: space-around;
-    align-content: space-around;
-    grid-template-rows: repeat(2, 400px);
-    grid-template-columns: repeat(3, 400px);
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    column-gap: 10px;
+    row-gap: 5px;
 }
 .nuestrasMarcas{
     display: flex;

@@ -16,7 +16,7 @@
     margin: 10px;
     font-weight: 800;
 }
-#tituloIndex{
+.tituloIndex{
     font-size: $font-primary-size;
     text-align: right;
     padding: 10px;
@@ -34,3 +34,19 @@
     margin: 10px;
     font-weight: 800;
 }
+.tituloSecundario{
+    color: map-get($paleta, secondary-color);
+    background-color: map-get($paleta, primary-color);
+    text-align: center;
+    font-size: $font-secondary-size;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 800;
+}
+.card-title{
+    text-align: left;
+    font-size: $font-four-size;
+    padding: 10px;
+    margin: 10px;
+    color: map-get($paleta, terciary-color);
+    }

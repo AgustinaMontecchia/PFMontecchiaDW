@@ -8,7 +8,6 @@
 * {
   padding: 0;
   margin: 0;
-  /* box-sizing: border-box; */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -25,19 +24,23 @@ button {
   font-size: 25px;
   padding: 10px;
   margin: 10px;
-  display: flex;
-  flex-wrap: wrap;
+}
+
+.cajaEmpresa {
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
 }
 
 .productos {
   padding: 10px;
   margin: 10px;
-  align-items: center;
-  justify-items: center;
-  justify-content: space-around;
-  align-content: space-around;
-  grid-template-rows: repeat(2, 400px);
-  grid-template-columns: repeat(3, 400px);
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  column-gap: 10px;
+  row-gap: 5px;
 }
 
 .nuestrasMarcas {
@@ -103,7 +106,7 @@ main section h1 {
   text-align: right;
   font-size: 50px;
   padding: 10px;
-  margin: 10px 10px 10px 20px;
+  margin: 10px;
   font-weight: 800;
 }
 main section h2 {
@@ -115,7 +118,15 @@ main section h2 {
 }
 main section h3 {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
+  padding: 10px;
+  margin: 20px;
+  font-weight: 800;
+  color: black;
+}
+main section h4 {
+  text-align: center;
+  font-size: 20px;
   padding: 10px;
   margin: 20px;
   font-weight: 800;
@@ -149,22 +160,12 @@ main section form {
 }
 main section div {
   margin-top: 10px;
+  display: grid;
 }
 
 /*FONDOS*/
 .fondoIndex {
-  background-image: url(../img/imagen\ inicio.png);
-  height: 100vh;
-  width: 99%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 10px;
-  margin: 10px;
-}
-
-.fondoContacto {
-  background-image: url(../img/imagen\ contacto.png);
+  background-image: url(../img/inicio.png);
   height: 100vh;
   width: 99%;
   background-repeat: no-repeat;
@@ -175,7 +176,7 @@ main section div {
 }
 
 .fondoPinturas {
-  background-image: url(../img/imagen\ pinturas.png);
+  background-image: url(../img/pinturas.png);
   height: 100vh;
   width: 99%;
   background-repeat: no-repeat;
@@ -186,7 +187,7 @@ main section div {
 }
 
 .fondoAccesorios {
-  background-image: url(../img/imagen\ accesorios.png);
+  background-image: url(../img/accesorios.png);
   height: 100vh;
   width: 99%;
   background-repeat: no-repeat;
@@ -216,7 +217,7 @@ main section div {
   font-weight: 800;
 }
 
-#tituloIndex {
+.tituloIndex {
   font-size: 50px;
   text-align: right;
   padding: 10px;
@@ -234,6 +235,24 @@ main section div {
   padding: 10px;
   margin: 10px;
   font-weight: 800;
+}
+
+.tituloSecundario {
+  color: white;
+  background-color: #ff1616;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+  margin: 10px;
+  font-weight: 800;
+}
+
+.card-title {
+  text-align: left;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
 }
 
 /*FOOTER*/
@@ -270,136 +289,6 @@ footer nav ul li {
 footer nav ul li a {
   padding: 10px;
   margin: 10px;
-}
-
-/*MEDIA QUERIES*/
-/* MOVIL */
-@media (min-width: 320px) and (max-width: 576px) {
-  .fondoIndex {
-    width: 100%;
-  }
-  #contacto {
-    font-size: 30px;
-  }
-  main {
-    margin-top: 10px;
-  }
-  main section {
-    margin: 10px;
-    padding: 10px;
-  }
-  main section h1 {
-    font-size: 25px;
-    padding: 10px;
-    margin: 10px 10px 10px 20px;
-  }
-  main section h2 {
-    margin: 1px;
-    padding: 1px;
-    font-size: 25px;
-  }
-  main section article h3 {
-    font-size: 25px;
-    margin: 10px;
-    padding: 10px;
-  }
-  main section div {
-    margin: 5px;
-    padding: 5px;
-  }
-  main section div img {
-    margin: 5px;
-    padding: 5px;
-  }
-  main section div ul {
-    margin: 5px;
-    padding: 5px;
-  }
-  main section div ul li {
-    font-size: 20px;
-    margin: 5px;
-    padding: 5px;
-  }
-  main section div p {
-    font-size: 20px;
-    margin: 5px;
-    padding: 5px;
-  }
-}
-/*TABLET*/
-@media (min-width: 577px) and (max-width: 768px) {
-  #tituloIndex {
-    width: 100%;
-    margin-top: 30vh;
-  }
-  .fondoContacto {
-    background-image: url(../img/imagen\ contacto.png);
-    height: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  main {
-    margin-top: 10px;
-  }
-  main section {
-    margin: 10px;
-    padding: 10px;
-  }
-  main section h1 {
-    font-size: 25px;
-    padding: 10px;
-    margin: 10px 10px 10px 20px;
-  }
-  main section h2 {
-    margin: 1px;
-    padding: 1px;
-    font-size: 25px;
-  }
-  main section article h3 {
-    font-size: 25px;
-    margin: 10px;
-    padding: 10px;
-  }
-  main section div {
-    margin: 5px;
-    padding: 5px;
-  }
-  main section div img {
-    margin: 5px;
-    padding: 5px;
-  }
-  main section div ul {
-    margin: 5px;
-    padding: 5px;
-  }
-  main section div ul li {
-    font-size: 20px;
-    margin: 5px;
-    padding: 5px;
-  }
-  main section div p {
-    font-size: 20px;
-    margin: 5px;
-    padding: 5px;
-  }
-  main section div form {
-    padding: 10px;
-    margin: 10px;
-    width: 100%;
-  }
-}
-/* DESKTOP  */
-@media (min-width: 769px) and (max-width: 1024px) {
-  #tituloIndex {
-    width: 100%;
-    margin-top: 30vh;
-  }
-  .fondoContacto {
-    background-image: url(../img/imagen\ contacto.png);
-    height: 100%;
-    padding: 0;
-    margin: 0;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */

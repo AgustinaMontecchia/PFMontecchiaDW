@@ -6,6 +6,8 @@ $terciary-color: black;
 $font-primary-size: 50px;
 /*H2*//*H3*/
 $font-secondary-size: 40px;
+$font-terciary-size: 30px;
+$font-four-size: 20px;
 /*IMAGENES*/
 $vh-height: 100vh;
 /*COLORES*/
@@ -14,7 +16,3 @@ $paleta:(
     secondary-color: white,
     terciary-color: black,
 );
-@mixin bordes($margin, $padding){
-    margin: $margin;
-    padding: $padding;
-}
