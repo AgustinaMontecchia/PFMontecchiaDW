@@ -245,4 +245,224 @@ footer div ul li .redes {
   width: 50px;
 }
 
+@media (min-width: 320px) and (max-width: 480) {
+  /*FONDOS*/
+  .fondoIndex, .fondoPinturas, .fondoAccesorios {
+    background-image: url(../img/inicio.png);
+    height: 10vh;
+    width: 99%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    padding: 10px;
+  }
+  .fondoPinturas {
+    background-image: url(../img/pinturas.png);
+  }
+  .fondoAccesorios {
+    background-image: url(../img/accesorios.png);
+  }
+  /*FOOTER*/
+  footer {
+    grid-area: footer;
+    background-color: #ff1616;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer div {
+    margin: 10px;
+    padding: 10px;
+  }
+  footer div .logo {
+    width: 200px;
+  }
+  footer div ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+  }
+  footer div ul li {
+    margin: 10px;
+    padding: 10px;
+  }
+  footer div ul li a {
+    margin: 10px;
+    padding: 10px;
+  }
+  footer div ul li .redes {
+    width: 50px;
+  }
+  /*GENERALES*/
+  body {
+    display: grid;
+    grid-template-areas: "header header header header" "main main main main" "main main main main" "footer footer footer footer";
+  }
+  .btn {
+    background-image: linear-gradient(to left, #d83535, #db3234, #de2e32, #e02a31, #e3262f);
+    color: white;
+  }
+  .caja, .cajaEmpresa {
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+  }
+  .cajaEmpresa {
+    justify-content: center;
+  }
+  .nuestrasMarcas {
+    display: flex;
+    justify-content: center;
+  }
+  .mapa {
+    display: flex;
+    justify-content: center;
+  }
+  /*TITULOS*/
+  #tituloEmpresa, #tituloContacto, .titulos, .tituloSecundario {
+    background-color: #ff1616;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 800;
+  }
+  #tituloContacto, .titulos, .tituloSecundario {
+    color: white;
+  }
+  .tituloIndex {
+    font-size: 30px;
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    margin-top: 40vh;
+    font-weight: 800;
+  }
+  .titulos {
+    text-align: right;
+  }
+  .tituloSecundario {
+    font-size: 20px;
+  }
+  .card-title {
+    text-align: left;
+    font-size: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+  }
+  /*HEADER*/
+  header {
+    grid-area: header;
+    background-color: white;
+    justify-content: space-between;
+  }
+  header div {
+    margin: 10px;
+    padding: 10px;
+  }
+  header div img {
+    width: 200px;
+    margin-left: 30px;
+  }
+  header nav {
+    margin: 10px;
+    padding: 10px;
+  }
+  header nav ul {
+    list-style-type: none;
+    font-size: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+  }
+  header nav ul li {
+    margin: 10px;
+    padding: 10px;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 700;
+  }
+  /*MAIN*/
+  main {
+    margin-top: 10px;
+    grid-area: main;
+    display: grid;
+  }
+  main section {
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+  }
+  main section h1 {
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 800;
+  }
+  main section h2 {
+    margin: 1px;
+    padding: 1px;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+  }
+  main section h3 {
+    text-align: center;
+    font-size: 10px;
+    margin: 20px;
+    padding: 10px;
+    font-weight: 800;
+    color: black;
+  }
+  main section h4 {
+    text-align: center;
+    font-size: 5px;
+    margin: 20px;
+    padding: 10px;
+    font-weight: 800;
+    color: black;
+  }
+  main section img {
+    margin: 10px;
+    padding: 10px;
+  }
+  main section ul {
+    margin: 10px;
+    padding: 10px;
+  }
+  main section ul li {
+    font-size: 10px;
+    margin: 10px;
+    padding: 10px;
+  }
+  main section p {
+    font-size: 10px;
+    margin: 10px;
+    padding: 10px;
+  }
+  main section iframe {
+    margin: 10px;
+    padding: 10px;
+  }
+  main section form {
+    margin: 10px;
+    padding: 10px;
+  }
+  main section div {
+    margin-top: 10px;
+    display: grid;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

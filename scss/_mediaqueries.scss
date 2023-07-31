@@ -1,0 +1,202 @@
+@media (min-width:320px) and (max-width:480){
+    /*FONDOS*/
+    .fondoIndex{
+        background-image: url(../img/inicio.png);
+        height: 10vh;
+        width: 99%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        @include bordes (10px, 10px);
+    }
+    .fondoPinturas{
+        @extend .fondoIndex;
+        background-image: url(../img/pinturas.png);
+    }
+    .fondoAccesorios{
+        @extend .fondoIndex;
+        background-image: url(../img/accesorios.png);
+    }
+    /*FOOTER*/
+    footer{
+        grid-area: footer;
+        background-color: map-get($paleta, primary-color);
+        @include bordes (20px, 10px);
+        display: flex;
+        justify-content: space-between;
+        div{
+            @include bordes (10px, 10px);
+            .logo{
+                width: 200px;
+            }
+            ul{
+                list-style-type: none;
+                @include bordes (10px, 10px);
+                display: flex;
+                li{
+                    @include bordes (10px, 10px);
+                    a{
+                        @include bordes (10px, 10px);
+                    }
+                    .redes{
+                        width: 50px;
+                    }
+                }
+            }
+        }
+    }
+    /*GENERALES*/
+    body{
+        display: grid;
+        grid-template-areas: 
+        "header header header header"
+        "main main main main"
+        "main main main main"
+        "footer footer footer footer"
+        ;
+    }
+    .btn{
+        background-image: linear-gradient(to left, #d83535, #db3234, #de2e32, #e02a31, #e3262f);
+        color: map-get($paleta, secondary-color);
+    }
+    .caja{
+        font-size: 18px;
+        @include bordes (10px, 10px);
+    }
+    .cajaEmpresa{
+        @extend .caja;
+        justify-content: center;
+    }
+    .nuestrasMarcas{
+        @include flex-center;
+    }
+    .mapa{
+        @include flex-center;
+    }
+    /*TITULOS*/
+    #tituloEmpresa{
+        background-color: map-get($paleta, primary-color);
+        font-size: 30px;
+        text-align: center;
+        @include bordes (10px, 10px);
+        font-weight: 800;
+    }
+    #tituloContacto{
+        color: map-get($paleta, secondary-color);
+        @extend #tituloEmpresa;
+    }
+    .tituloIndex{
+        font-size: 30px;
+        text-align: right;
+        @include bordes (10px, 10px);
+        color: map-get($paleta, terciary-color);
+        margin-top: 40vh;
+        font-weight: 800;
+    }
+    .titulos{
+        text-align: right;
+        @extend #tituloContacto;
+    }
+    .tituloSecundario{
+        font-size: 20px;
+        @extend #tituloContacto;
+    }
+    .card-title{
+        text-align: left;
+        font-size: 10px;
+        @include bordes (10px, 10px);
+        color: map-get($paleta, terciary-color);
+        }
+    /*HEADER*/
+    header{
+        grid-area: header;
+        background-color: map-get($paleta, secondary-color);
+        justify-content: space-between;
+        div{
+            @include bordes (10px, 10px);
+            img{
+                width: 200px;
+                margin-left: 30px;
+            }
+        }
+        nav{
+            @include bordes (10px, 10px);
+            ul{
+                list-style-type: none;
+                font-size: 10px;
+                @include bordes (10px, 10px);
+                display: flex;
+                li{
+                    @include bordes (10px, 10px);
+                    a{
+                        text-decoration: none;
+                        color: map-get($paleta, terciary-color);
+                        @include bordes (10px, 10px);
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+    /*MAIN*/
+    main{
+        margin-top: 10px;
+        grid-area: main;
+        display: grid;
+        section{
+            @include bordes (10px, 10px);
+            display: grid;
+            h1{
+                color: map-get($paleta, secondary-color);
+                text-align: right;
+                font-size: 30px;
+                @include bordes (10px, 10px);
+                font-weight: 800;
+            }
+            h2{
+                @include bordes (1px, 1px);
+                font-weight: 600;
+                font-size: 15px;
+                color: map-get($paleta, terciary-color);
+            }
+            h3{
+                text-align: center;
+                font-size: 10px;
+                @include bordes (20px, 10px);
+                font-weight: 800;
+                color: map-get($paleta, terciary-color);
+            }
+            h4{
+                text-align: center;
+                font-size: 5px;
+                @include bordes (20px, 10px);
+                font-weight: 800;
+                color: map-get($paleta, terciary-color);
+            }
+            img{
+                @include bordes (10px, 10px);;
+            }
+            ul{
+                @include bordes (10px, 10px);
+                li{
+                    font-size: 10px;
+                    @include bordes (10px, 10px);
+                }
+            }
+            p{
+                font-size: 10px;
+                @include bordes (10px, 10px);
+            }
+            iframe{
+                @include bordes (10px, 10px);
+            }
+            form{
+                @include bordes (10px, 10px);
+            }
+            div{
+                margin-top: 10px;
+                display: grid;
+            }
+        }
+    }
+}
