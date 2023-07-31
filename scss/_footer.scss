@@ -2,32 +2,25 @@
 footer{
     grid-area: footer;
     background-color: map-get($paleta, primary-color);
-    padding: 10px;
-    margin: 20px;
+    @include bordes (20px, 10px);
     display: flex;
     justify-content: space-between;
     div{
-        padding: 10px;
-        margin: 10px;
-        width: 300px;
-        img{
+        @include bordes (10px, 10px);
+        .logo{
             width: 200px;
         }
-    }
-    nav{
-        padding: 10px;
-        margin: 10px;
         ul{
             list-style-type: none;
-            padding: 10px;
-            margin: 10px;
+            @include bordes (10px, 10px);
             display: flex;
             li{
-                padding: 10px;
-                margin: 10px;
+                @include bordes (10px, 10px);
                 a{
-                    padding: 10px;
-                    margin: 10px;
+                    @include bordes (10px, 10px);
+                }
+                .redes{
+                    width: 50px;
                 }
             }
         }

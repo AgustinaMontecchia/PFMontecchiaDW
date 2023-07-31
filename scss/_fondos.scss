@@ -6,27 +6,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 10px;
-    margin: 10px;
+    @include bordes (10px, 10px);
 }
 
 .fondoPinturas{
+    @extend .fondoIndex;
     background-image: url(../img/pinturas.png);
-    height: 100vh;
-    width: 99%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
-    margin: 10px;
 }
 .fondoAccesorios{
+    @extend .fondoIndex;
     background-image: url(../img/accesorios.png);
-    height: 100vh;
-    width: 99%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
-    margin: 10px;
 }

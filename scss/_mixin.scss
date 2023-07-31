@@ -2,3 +2,7 @@
     margin: $margin;
     padding: $padding;
 }
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+}

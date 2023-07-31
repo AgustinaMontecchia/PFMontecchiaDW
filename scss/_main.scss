@@ -4,20 +4,17 @@ main{
     grid-area: main;
     display: grid;
     section{
-        padding: 10px;
-        margin: 10px;
+        @include bordes (10px, 10px);
         display: grid;
         h1{
             color: map-get($paleta, secondary-color);
             text-align: right;
             font-size: $font-primary-size;
-            padding: 10px;
-            margin: 10px;
+            @include bordes (10px, 10px);
             font-weight: 800;
         }
         h2{
-            padding: 1px;
-            margin: 1px;
+            @include bordes (1px, 1px);
             font-weight: 600;
             font-size: $font-secondary-size;
             color: map-get($paleta, terciary-color);
@@ -25,44 +22,36 @@ main{
         h3{
             text-align: center;
             font-size: $font-terciary-size;
-            padding: 10px;
-            margin: 20px;
+            @include bordes (20px, 10px);
             font-weight: 800;
             color: map-get($paleta, terciary-color);
         }
         h4{
             text-align: center;
             font-size: $font-four-size;
-            padding: 10px;
-            margin: 20px;
+            @include bordes (20px, 10px);
             font-weight: 800;
             color: map-get($paleta, terciary-color);
         }
         img{
-            padding: 10px;
-            margin: 10px;
+            @include bordes (10px, 10px);;
         }
         ul{
-            padding: 10px;
-            margin: 10px;
+            @include bordes (10px, 10px);
             li{
                 font-size: 20px;
-                padding: 10px;
-                margin: 10px;
+                @include bordes (10px, 10px);
             }
         }
         p{
             font-size: 20px;
-            padding: 10px;
-            margin: 10px;
+            @include bordes (10px, 10px);
         }
         iframe{
-            padding: 10px;
-            margin: 10px;
+            @include bordes (10px, 10px);
         }
         form{
-            padding: 10px;
-            margin: 10px;
+            @include bordes (10px, 10px);
         }
         div{
             margin-top: 10px;

@@ -16,31 +16,19 @@ body {
   grid-template-areas: "header header header header" "main main main main" "main main main main" "footer footer footer footer";
 }
 
-button {
-  background-color: #ff1616;
+.btn {
+  background-image: linear-gradient(to left, #d83535, #db3234, #de2e32, #e02a31, #e3262f);
+  color: white;
 }
 
-.caja {
+.caja, .cajaEmpresa {
   font-size: 25px;
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
 }
 
 .cajaEmpresa {
-  font-size: 25px;
-  padding: 10px;
-  margin: 10px;
   justify-content: center;
-}
-
-.productos {
-  padding: 10px;
-  margin: 10px;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 50% 50%;
-  column-gap: 10px;
-  row-gap: 5px;
 }
 
 .nuestrasMarcas {
@@ -60,33 +48,33 @@ header {
   justify-content: space-between;
 }
 header div {
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
 }
 header div img {
   width: 200px;
   margin-left: 30px;
 }
 header nav {
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
 }
 header nav ul {
   list-style-type: none;
   font-size: 25px;
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
   display: flex;
 }
 header nav ul li {
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
 }
 header nav ul li a {
   text-decoration: none;
   color: black;
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
   font-weight: 700;
 }
 
@@ -97,21 +85,21 @@ main {
   display: grid;
 }
 main section {
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
   display: grid;
 }
 main section h1 {
   color: white;
   text-align: right;
   font-size: 50px;
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
   font-weight: 800;
 }
 main section h2 {
-  padding: 1px;
   margin: 1px;
+  padding: 1px;
   font-weight: 600;
   font-size: 40px;
   color: black;
@@ -119,44 +107,44 @@ main section h2 {
 main section h3 {
   text-align: center;
   font-size: 30px;
-  padding: 10px;
   margin: 20px;
+  padding: 10px;
   font-weight: 800;
   color: black;
 }
 main section h4 {
   text-align: center;
   font-size: 20px;
-  padding: 10px;
   margin: 20px;
+  padding: 10px;
   font-weight: 800;
   color: black;
 }
 main section img {
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
 }
 main section ul {
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
 }
 main section ul li {
   font-size: 20px;
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
 }
 main section p {
   font-size: 20px;
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
 }
 main section iframe {
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
 }
 main section form {
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
 }
 main section div {
   margin-top: 10px;
@@ -164,94 +152,62 @@ main section div {
 }
 
 /*FONDOS*/
-.fondoIndex {
+.fondoIndex, .fondoAccesorios, .fondoPinturas {
   background-image: url(../img/inicio.png);
   height: 100vh;
   width: 99%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
 }
 
 .fondoPinturas {
   background-image: url(../img/pinturas.png);
-  height: 100vh;
-  width: 99%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 10px;
-  margin: 10px;
 }
 
 .fondoAccesorios {
   background-image: url(../img/accesorios.png);
-  height: 100vh;
-  width: 99%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 10px;
-  margin: 10px;
 }
 
 /*TITULOS*/
-#tituloContacto {
+#tituloEmpresa, #tituloContacto, .tituloSecundario, .titulos {
   background-color: #ff1616;
-  color: white;
   font-size: 50px;
   text-align: center;
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
   font-weight: 800;
 }
 
-#tituloEmpresa {
-  background-color: #ff1616;
-  font-size: 50px;
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
-  font-weight: 800;
+#tituloContacto, .tituloSecundario, .titulos {
+  color: white;
 }
 
 .tituloIndex {
   font-size: 50px;
   text-align: right;
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
   color: black;
   margin-top: 40vh;
   font-weight: 800;
 }
 
 .titulos {
-  color: white;
-  background-color: #ff1616;
   text-align: right;
-  font-size: 50px;
-  padding: 10px;
-  margin: 10px;
-  font-weight: 800;
 }
 
 .tituloSecundario {
-  color: white;
-  background-color: #ff1616;
-  text-align: center;
   font-size: 40px;
-  padding: 10px;
-  margin: 10px;
-  font-weight: 800;
 }
 
 .card-title {
   text-align: left;
   font-size: 20px;
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
   color: black;
 }
 
@@ -259,36 +215,34 @@ main section div {
 footer {
   grid-area: footer;
   background-color: #ff1616;
-  padding: 10px;
   margin: 20px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
 }
 footer div {
-  padding: 10px;
   margin: 10px;
-  width: 300px;
+  padding: 10px;
 }
-footer div img {
+footer div .logo {
   width: 200px;
 }
-footer nav {
-  padding: 10px;
-  margin: 10px;
-}
-footer nav ul {
+footer div ul {
   list-style-type: none;
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
   display: flex;
 }
-footer nav ul li {
-  padding: 10px;
+footer div ul li {
   margin: 10px;
+  padding: 10px;
 }
-footer nav ul li a {
-  padding: 10px;
+footer div ul li a {
   margin: 10px;
+  padding: 10px;
+}
+footer div ul li .redes {
+  width: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */

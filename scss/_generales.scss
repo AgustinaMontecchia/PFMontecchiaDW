@@ -13,34 +13,21 @@ body{
     "footer footer footer footer"
     ;
 }
-button{
-    background-color: map-get($paleta, primary-color);
+.btn{
+    background-image: linear-gradient(to left, #d83535, #db3234, #de2e32, #e02a31, #e3262f);
+    color: map-get($paleta, secondary-color);
 }
 .caja{
     font-size: 25px;
-    padding: 10px;
-    margin: 10px;
+    @include bordes (10px, 10px);
 }
 .cajaEmpresa{
-    font-size: 25px;
-    padding: 10px;
-    margin: 10px;
+    @extend .caja;
     justify-content: center;
-}
-.productos{
-    padding: 10px;
-    margin: 10px;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 50%;
-    column-gap: 10px;
-    row-gap: 5px;
 }
 .nuestrasMarcas{
-    display: flex;
-    justify-content: center;
+    @include flex-center;
 }
 .mapa{
-    display: flex;
-    justify-content: center;
+    @include flex-center;
 }
