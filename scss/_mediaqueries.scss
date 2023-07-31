@@ -27,7 +27,7 @@
         div{
             @include bordes (10px, 10px);
             .logo{
-                width: 200px;
+                width: 50px;
             }
             ul{
                 list-style-type: none;
@@ -39,7 +39,7 @@
                         @include bordes (10px, 10px);
                     }
                     .redes{
-                        width: 50px;
+                        width: 20px;
                     }
                 }
             }
