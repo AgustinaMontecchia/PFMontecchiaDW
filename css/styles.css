@@ -253,12 +253,12 @@ footer div ul li .redes {
   .fondoIndex, .fondoPinturas, .fondoAccesorios {
     background-image: url(../img/inicio.png);
     height: 100vh;
-    width: 99%;
+    width: 98%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
   }
   .fondoPinturas {
     background-image: url(../img/pinturas.png);
@@ -270,31 +270,32 @@ footer div ul li .redes {
   footer {
     grid-area: footer;
     background-color: #ff1616;
-    margin: 20px;
-    padding: 10px;
+    margin: 10px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
   }
   footer div {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
+    width: 95%;
   }
   footer div .logo {
     width: 50px;
   }
   footer div ul {
     list-style-type: none;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     display: flex;
   }
   footer div ul li {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
   }
   footer div ul li a {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
   }
   footer div ul li .redes {
     width: 20px;
@@ -310,8 +311,8 @@ footer div ul li .redes {
   }
   .caja, .cajaEmpresa {
     font-size: 5px;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
   }
   .cajaEmpresa {
     justify-content: center;
@@ -324,13 +325,16 @@ footer div ul li .redes {
     display: flex;
     justify-content: center;
   }
+  .card {
+    width: 99%;
+  }
   /*TITULOS*/
   #tituloEmpresa, #tituloContacto, .titulos, .tituloSecundario {
     background-color: #ff1616;
     font-size: 30px;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     font-weight: 800;
   }
   #tituloContacto, .titulos, .tituloSecundario {
@@ -339,8 +343,8 @@ footer div ul li .redes {
   .tituloIndex {
     font-size: 30px;
     text-align: right;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     color: black;
     margin-top: 40vh;
     font-weight: 800;
@@ -354,8 +358,8 @@ footer div ul li .redes {
   .card-title {
     text-align: left;
     font-size: 5px;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     color: black;
   }
   /*HEADER*/
@@ -365,33 +369,34 @@ footer div ul li .redes {
     justify-content: space-between;
   }
   header div {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
   }
   header div img {
-    width: 200px;
+    width: 50px;
     margin-left: 30px;
   }
   header nav {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
+    width: 95%;
   }
   header nav ul {
     list-style-type: none;
     font-size: 5px;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     display: flex;
   }
   header nav ul li {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
   }
   header nav ul li a {
     text-decoration: none;
     color: black;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     font-weight: 700;
   }
   /*MAIN*/
@@ -401,16 +406,16 @@ footer div ul li .redes {
     display: grid;
   }
   main section {
-    margin: 10px;
-    padding: 10px;
+    margin: 1px;
+    padding: 1px;
     display: grid;
   }
   main section h1 {
     color: white;
     text-align: right;
     font-size: 30px;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     font-weight: 800;
   }
   main section h2 {
@@ -423,47 +428,47 @@ footer div ul li .redes {
   main section h3 {
     text-align: center;
     font-size: 10px;
-    margin: 20px;
-    padding: 10px;
+    margin: 10px;
+    padding: 5px;
     font-weight: 800;
     color: black;
   }
   main section h4 {
     text-align: center;
     font-size: 5px;
-    margin: 20px;
-    padding: 10px;
+    margin: 10px;
+    padding: 5px;
     font-weight: 800;
     color: black;
   }
   main section img {
-    margin: 10px;
-    padding: 10px;
+    margin: 1px;
+    padding: 1px;
   }
   main section ul {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
   }
   main section ul li {
     font-size: 5px;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
   }
   main section p {
     font-size: 5px;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
   }
   main section iframe {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
   }
   main section form {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
   }
   main section div {
-    margin-top: 10px;
+    margin-top: 5px;
     display: grid;
   }
 }

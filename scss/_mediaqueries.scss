@@ -3,11 +3,11 @@
     .fondoIndex{
         background-image: url(../img/inicio.png);
         height: 100vh;
-        width: 99%;
+        width: 98%;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        @include bordes (10px, 10px);
+        @include bordes (5px, 5px);
     }
     .fondoPinturas{
         @extend .fondoIndex;
@@ -21,22 +21,23 @@
     footer{
         grid-area: footer;
         background-color: map-get($paleta, primary-color);
-        @include bordes (20px, 10px);
+        @include bordes (10px, 5px);
         display: flex;
         justify-content: space-between;
         div{
-            @include bordes (10px, 10px);
+            @include bordes (5px, 5px);
+            width: 95%;
             .logo{
                 width: 50px;
             }
             ul{
                 list-style-type: none;
-                @include bordes (10px, 10px);
+                @include bordes (5px, 5px);
                 display: flex;
                 li{
-                    @include bordes (10px, 10px);
+                    @include bordes (5px, 5px);
                     a{
-                        @include bordes (10px, 10px);
+                        @include bordes (5px, 5px);
                     }
                     .redes{
                         width: 20px;
@@ -61,7 +62,7 @@
     }
     .caja{
         font-size: 5px;
-        @include bordes (10px, 10px);
+        @include bordes (5px, 5px);
     }
     .cajaEmpresa{
         @extend .caja;
@@ -73,12 +74,15 @@
     .mapa{
         @include flex-center;
     }
+    .card{
+        width: 99%;
+    }
     /*TITULOS*/
     #tituloEmpresa{
         background-color: map-get($paleta, primary-color);
         font-size: $font-primary-size-query;
         text-align: center;
-        @include bordes (10px, 10px);
+        @include bordes (5px, 5px);
         font-weight: 800;
     }
     #tituloContacto{
@@ -88,7 +92,7 @@
     .tituloIndex{
         font-size: $font-primary-size-query;
         text-align: right;
-        @include bordes (10px, 10px);
+        @include bordes (5px, 5px);
         color: map-get($paleta, terciary-color);
         margin-top: 40vh;
         font-weight: 800;
@@ -104,7 +108,7 @@
     .card-title{
         text-align: left;
         font-size: $font-four-size-query;
-        @include bordes (10px, 10px);
+        @include bordes (5px, 5px);
         color: map-get($paleta, terciary-color);
         }
     /*HEADER*/
@@ -113,25 +117,26 @@
         background-color: map-get($paleta, secondary-color);
         justify-content: space-between;
         div{
-            @include bordes (10px, 10px);
+            @include bordes (5px, 5px);
             img{
-                width: 200px;
+                width: 50px;
                 margin-left: 30px;
             }
         }
         nav{
-            @include bordes (10px, 10px);
+            @include bordes (5px, 5px);
+            width: 95%;
             ul{
                 list-style-type: none;
                 font-size: 5px;
-                @include bordes (10px, 10px);
+                @include bordes (5px, 5px);
                 display: flex;
                 li{
-                    @include bordes (10px, 10px);
+                    @include bordes (5px, 5px);
                     a{
                         text-decoration: none;
                         color: map-get($paleta, terciary-color);
-                        @include bordes (10px, 10px);
+                        @include bordes (5px, 5px);
                         font-weight: 700;
                     }
                 }
@@ -144,13 +149,13 @@
         grid-area: main;
         display: grid;
         section{
-            @include bordes (10px, 10px);
+            @include bordes (1px, 1px);
             display: grid;
             h1{
                 color: map-get($paleta, secondary-color);
                 text-align: right;
                 font-size: $font-primary-size-query;
-                @include bordes (10px, 10px);
+                @include bordes (5px, 5px);
                 font-weight: 800;
             }
             h2{
@@ -162,39 +167,39 @@
             h3{
                 text-align: center;
                 font-size: $font-terciary-size-query;
-                @include bordes (20px, 10px);
+                @include bordes (10px, 5px);
                 font-weight: 800;
                 color: map-get($paleta, terciary-color);
             }
             h4{
                 text-align: center;
                 font-size: $font-four-size-query;
-                @include bordes (20px, 10px);
+                @include bordes (10px, 5px);
                 font-weight: 800;
                 color: map-get($paleta, terciary-color);
             }
             img{
-                @include bordes (10px, 10px);;
+                @include bordes (1px, 1px);
             }
             ul{
-                @include bordes (10px, 10px);
+                @include bordes (5px, 5px);
                 li{
                     font-size: 5px;
-                    @include bordes (10px, 10px);
+                    @include bordes (5px, 5px);
                 }
             }
             p{
                 font-size: 5px;
-                @include bordes (10px, 10px);
+                @include bordes (5px, 5px);
             }
             iframe{
-                @include bordes (10px, 10px);
+                @include bordes (5px, 5px);
             }
             form{
-                @include bordes (10px, 10px);
+                @include bordes (5px, 5px);
             }
             div{
-                margin-top: 10px;
+                margin-top: 5px;
                 display: grid;
             }
         }
