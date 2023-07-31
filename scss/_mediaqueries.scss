@@ -3,7 +3,6 @@
     .fondoIndex{
         background-image: url(../img/inicio.png);
         height: 100vh;
-        width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -26,7 +25,6 @@
         justify-content: space-between;
         div{
             @include bordes (0px, 0px);
-            width: 100%;
             .logo{
                 width: 50px;
             }
@@ -73,9 +71,6 @@
     }
     .mapa{
         @include flex-center;
-    }
-    .card{
-        width: 100%;
     }
     /*TITULOS*/
     #tituloEmpresa{
@@ -125,7 +120,6 @@
         }
         nav{
             @include bordes (1px, 1px);
-            width: 100%;
             ul{
                 list-style-type: none;
                 font-size: 5px;
