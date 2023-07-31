@@ -3,28 +3,21 @@ header{
     grid-area: header;
     background-color: map-get($paleta, secondary-color);
     justify-content: space-between;
-    div{
-        @include bordes (10px, 10px);
-        img{
-            width: 200px;
-            margin-left: 30px;
-        }
+    img{
+        width: 200px;
+        margin-left: 30px;
     }
-    nav{
+    ul{
+        list-style-type: none;
+        font-size: 25px;
         @include bordes (10px, 10px);
-        ul{
-            list-style-type: none;
-            font-size: 25px;
+        display: flex;
+        li{
             @include bordes (10px, 10px);
-            display: flex;
-            li{
-                @include bordes (10px, 10px);
-                a{
-                    text-decoration: none;
-                    color: map-get($paleta, terciary-color);
-                    @include bordes (10px, 10px);
-                    font-weight: 700;
-                }
+            a{
+                text-decoration: none;
+                color: map-get($paleta, terciary-color);
+                font-weight: 700;
             }
         }
     }
