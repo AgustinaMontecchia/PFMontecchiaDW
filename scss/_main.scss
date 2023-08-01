@@ -5,52 +5,56 @@ main{
     display: grid;
     section{
         display: grid;
-        h1{
-            color: map-get($paleta, secondary-color);
-            text-align: right;
-            font-size: $font-primary-size;
-            font-weight: 800;
-        }
-        h2{
-            font-weight: 600;
-            font-size: $font-secondary-size;
-            color: map-get($paleta, terciary-color);
-        }
-        h3{
-            text-align: center;
-            font-size: $font-terciary-size;
-            font-weight: 800;
-            color: map-get($paleta, terciary-color);
-        }
-        h4{
-            text-align: center;
-            font-size: $font-four-size;
-            margin-top: 20px;
-            font-weight: 800;
-            color: map-get($paleta, terciary-color);
-        }
-        img{
-            @include bordes (10px, 10px);;
-        }
-        ul{
-            li{
+        article{
+            width: 100%;
+            h1{
+                color: map-get($paleta, secondary-color);
+                text-align: right;
+                font-size: $font-primary-size;
+                font-weight: 800;
+            }
+            h2{
+                font-weight: 600;
+                font-size: $font-secondary-size;
+                color: map-get($paleta, terciary-color);
+            }
+            h3{
+                text-align: center;
+                font-size: $font-terciary-size;
+                font-weight: 800;
+                color: map-get($paleta, terciary-color);
+            }
+            h4{
+                text-align: center;
+                font-size: $font-four-size;
+                margin-top: 20px;
+                font-weight: 800;
+                color: map-get($paleta, terciary-color);
+            }
+            img{
+                @include bordes (10px, 10px);;
+            }
+            ul{
+                li{
+                    font-size: 20px;
+                    @include bordes (1px, 1px);
+                }
+            }
+            p{
                 font-size: 20px;
                 @include bordes (1px, 1px);
             }
-        }
-        p{
-            font-size: 20px;
-            @include bordes (1px, 1px);
-        }
-        iframe{
-            @include bordes (10px, 10px);
-        }
-        form{
-            @include bordes (10px, 10px);
-        }
-        div{
-            margin-top: 10px;
-            display: grid;
+            iframe{
+                @include bordes (10px, 10px);
+                width: 50%;
+            }
+            form{
+                @include bordes (10px, 10px);
+            }
+            div{
+                margin-top: 10px;
+                display: grid;
+            }
         }
     }
 }

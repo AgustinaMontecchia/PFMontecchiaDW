@@ -34,7 +34,6 @@ body{
 }
 .mapa{
     @include flex-center;
-    width: 1024px;
 }
 .card{
     @include bordes (5px, 5px);
