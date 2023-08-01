@@ -12,6 +12,8 @@ body{
     "main main main main"
     "footer footer footer footer"
     ;
+    grid-template-columns: repeat(1, 4fr);
+    grid-template-rows: repeat(1, 4fr);
 }
 .btn{
     background-image: linear-gradient(to left, #d83535, #db3234, #de2e32, #e02a31, #e3262f);

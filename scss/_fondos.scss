@@ -7,7 +7,6 @@
     background-position: center;
     @include bordes (10px, 10px);
 }
-
 .fondoPinturas{
     @extend .fondoIndex;
     background-image: url(../img/pinturas.png);
