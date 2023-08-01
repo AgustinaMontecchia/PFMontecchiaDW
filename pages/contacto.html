@@ -84,56 +84,55 @@
         <section>
             <article>
                 <h3>UBICACIÓN</h3>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.1930819176205!2d-64.43969862355772!3d-33.20903398519081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d1f95aa5ceed17%3A0xa29baa8e46378b3a!2sCamiFlex!5e0!3m2!1ses-419!2sar!4v1686008704650!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </article>
-            <div class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.1930819176205!2d-64.43969862355772!3d-33.20903398519081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d1f95aa5ceed17%3A0xa29baa8e46378b3a!2sCamiFlex!5e0!3m2!1ses-419!2sar!4v1686008704650!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
         </section>
         <!-- FIN MAPA -->
         <!-- CUESTIONARIO -->
         <section>
             <article>
                 <h4 class="animate__animated animate__zoomIn">CONTACTANOS</h4>
+                <div class="container-fluid animate__animated animate__zoomIn cuestionario">
+                    <form class="row g-3">
+                        <div class="col-6">
+                            <label for="nombreInput" class="form-label">Nombre</label>
+                            <input type="nombre" class="form-control" id="nombreInput" placeholder="Escribe tu nombre">
+                        </div>
+                        <div class="col-6">
+                            <label for="apellidoInput" class="form-label">Apellido</label>
+                            <input type="apellido" class="form-control" id="apellidoInput" placeholder="Escribe tu apellido">
+                        </div>
+                        <div class="col-6">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu email">
+                        </div>
+                        <div class="col-6">
+                            <label for="email" class="form-label">Teléfono</label>
+                            <input type="telefono" class="form-control" id="telefonolInput" placeholder="Escribe tu teléfono">
+                        </div>
+                        <div class="col-sm-12">
+                            <label for="consulta" class="form-label">Consulta</label>
+                            <textarea type="email" class="form-control" id="emailInput" placeholder="Escribe tu consulta"></textarea>
+                        </div>
+                        <div id="emailHelp" class="form-text">Nunca compartiremos tu información con nadie más.
+                        </div>
+                        <div>
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones.</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Suscribirme al Newsletter.</label>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn">Enviar</button>
+                        </div>
+                    </form>
+                </div>
             </article>
         </section>
-        <div class="container-fluid animate__animated animate__zoomIn cuestionario">
-            <form class="row g-3">
-                <div class="col-6">
-                    <label for="nombreInput" class="form-label">Nombre</label>
-                    <input type="nombre" class="form-control" id="nombreInput" placeholder="Escribe tu nombre">
-                </div>
-                <div class="col-6">
-                    <label for="apellidoInput" class="form-label">Apellido</label>
-                    <input type="apellido" class="form-control" id="apellidoInput" placeholder="Escribe tu apellido">
-                </div>
-                <div class="col-6">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu email">
-                </div>
-                <div class="col-6">
-                    <label for="email" class="form-label">Teléfono</label>
-                    <input type="telefono" class="form-control" id="telefonolInput" placeholder="Escribe tu teléfono">
-                </div>
-                <div class="col-sm-12">
-                    <label for="consulta" class="form-label">Consulta</label>
-                    <textarea type="email" class="form-control" id="emailInput" placeholder="Escribe tu consulta"></textarea>
-                </div>
-                <div id="emailHelp" class="form-text">Nunca compartiremos tu información con nadie más.
-                </div>
-                <div>
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones.</label>
-                </div>
-                <div>
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Suscribirme al Newsletter.</label>
-                </div>
-                <div>
-                    <button type="submit" class="btn">Enviar</button>
-                </div>
-                </div>
-            </form>
-        </div>
         <!-- FIN CUESTIONARIO -->
     </main>
     <!-- FOOTER -->
