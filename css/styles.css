@@ -53,8 +53,21 @@ body {
   padding: 5px;
 }
 
+.card-text {
+  font-size: 15px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
 .row {
   width: 98%;
+}
+
+.carousel {
+  margin: 5px;
+  padding: 5px;
 }
 
 /*HEADER*/
@@ -310,6 +323,12 @@ footer div ul li .redes {
     justify-content: center;
     width: 400px;
     height: 200px;
+  }
+  .card-text {
+    font-size: 10px;
+  }
+  .card-title {
+    font-size: 15px;
   }
   /*TITULOS*/
   #tituloEmpresa, #tituloContacto, .titulos, .tituloSecundario {

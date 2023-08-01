@@ -65,6 +65,12 @@
         width: 400px;
         height: 200px;
     }
+    .card-text{
+        font-size: $font-four-size-query;
+    }
+    .card-title{
+        font-size: $font-terciary-size-query;
+    }
     /*TITULOS*/
     #tituloEmpresa{
         background-color: map-get($paleta, primary-color);
