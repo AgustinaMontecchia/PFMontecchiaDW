@@ -8,6 +8,7 @@ footer{
         display: flex;
         align-items: center;
         .logo{
+            @include bordes(10px, 10px);
             width: 200px;
         }
         ul{

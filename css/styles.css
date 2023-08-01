@@ -148,9 +148,8 @@ main section article div {
 }
 
 /*FONDOS*/
-.fondoIndex, .fondoAccesorios, .fondoPinturas {
+.fondoIndex, .fondoPinturas, .fondoAccesorios {
   background-image: url(../img/inicio.png);
-  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -158,7 +157,8 @@ main section article div {
   padding: 10px;
 }
 
-.fondoPinturas {
+.fondoPinturas, .fondoAccesorios {
+  height: 60vh;
   background-image: url(../img/pinturas.png);
 }
 
@@ -216,6 +216,8 @@ footer div {
   align-items: center;
 }
 footer div .logo {
+  margin: 10px;
+  padding: 10px;
   width: 200px;
 }
 footer div ul {
@@ -240,14 +242,14 @@ footer div ul li .redes {
   /*FONDOS*/
   .fondoIndex, .fondoPinturas, .fondoAccesorios {
     background-image: url(../img/inicio.png);
-    height: 100vh;
+    height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: 1px;
     padding: 1px;
   }
-  .fondoPinturas {
+  .fondoPinturas, .fondoAccesorios {
     background-image: url(../img/pinturas.png);
   }
   .fondoAccesorios {
@@ -327,7 +329,7 @@ footer div ul li .redes {
     margin: 1px;
     padding: 1px;
     color: black;
-    margin-top: 40vh;
+    margin-top: 10vh;
     font-weight: 800;
   }
   .titulos {

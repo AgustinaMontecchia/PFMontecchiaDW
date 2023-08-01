@@ -2,7 +2,7 @@
     /*FONDOS*/
     .fondoIndex{
         background-image: url(../img/inicio.png);
-        height: 100vh;
+        height: 30vh;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -82,7 +82,7 @@
         text-align: right;
         @include bordes (1px, 1px);
         color: map-get($paleta, terciary-color);
-        margin-top: 40vh;
+        margin-top: 10vh;
         font-weight: 800;
     }
     .titulos{
