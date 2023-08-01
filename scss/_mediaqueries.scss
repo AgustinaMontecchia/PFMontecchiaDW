@@ -175,6 +175,7 @@
             }
             img{
                 @include bordes (1px, 1px);
+                width: 50%;
             }
             ul{
                 @include bordes (1px, 1px);
