@@ -5,18 +5,19 @@ footer{
     display: flex;
     justify-content: space-between;
     div{
-        @include bordes (10px, 10px);
+        display: flex;
+        align-items: center;
         .logo{
             width: 200px;
         }
         ul{
             list-style-type: none;
-            @include bordes (10px, 10px);
+            @include bordes (5px, 5px);
             display: flex;
             li{
-                @include bordes (10px, 10px);
+                @include bordes (5px, 5px);
                 a{
-                    @include bordes (10px, 10px);
+                    @include bordes (5px, 5px);
                 }
                 .redes{
                     width: 50px;

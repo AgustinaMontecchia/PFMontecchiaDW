@@ -13,7 +13,7 @@
 .tituloIndex{
     font-size: $font-primary-size;
     text-align: right;
-    @include bordes (10px, 10px);
+    @include bordes (5px, 5px);
     color: map-get($paleta, terciary-color);
     margin-top: 40vh;
     font-weight: 800;
@@ -29,6 +29,5 @@
 .card-title{
     text-align: left;
     font-size: $font-four-size;
-    @include bordes (10px, 10px);
     color: map-get($paleta, terciary-color);
-    }
+}

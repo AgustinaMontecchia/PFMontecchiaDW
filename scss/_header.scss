@@ -10,10 +10,8 @@ header{
     ul{
         list-style-type: none;
         font-size: 25px;
-        @include bordes (10px, 10px);
         display: flex;
         li{
-            @include bordes (10px, 10px);
             a{
                 text-decoration: none;
                 color: map-get($paleta, terciary-color);
