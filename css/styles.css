@@ -46,6 +46,7 @@ body {
 .mapa {
   display: flex;
   justify-content: center;
+  width: 1024px;
 }
 
 .card {
@@ -315,6 +316,8 @@ footer div ul li .redes {
   .mapa {
     display: flex;
     justify-content: center;
+    width: 400px;
+    height: 200px;
   }
   /*TITULOS*/
   #tituloEmpresa, #tituloContacto, .titulos, .tituloSecundario {

@@ -62,6 +62,8 @@
     }
     .mapa{
         @include flex-center;
+        width: 400px;
+        height: 200px;
     }
     /*TITULOS*/
     #tituloEmpresa{
