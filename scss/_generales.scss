@@ -34,3 +34,6 @@ body{
 .card{
     @include bordes (5px, 5px);
 }
+.row{
+    width: 98%;
+}

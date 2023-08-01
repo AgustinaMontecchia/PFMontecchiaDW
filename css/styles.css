@@ -49,6 +49,10 @@ body {
   padding: 5px;
 }
 
+.row {
+  width: 98%;
+}
+
 /*HEADER*/
 header {
   grid-area: header;
@@ -209,8 +213,6 @@ main section div {
 footer {
   grid-area: footer;
   background-color: #ff1616;
-  margin: 20px;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
 }

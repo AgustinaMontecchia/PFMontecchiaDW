@@ -2,7 +2,6 @@
 footer{
     grid-area: footer;
     background-color: map-get($paleta, primary-color);
-    @include bordes (20px, 10px);
     display: flex;
     justify-content: space-between;
     div{
