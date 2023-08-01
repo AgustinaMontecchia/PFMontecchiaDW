@@ -30,8 +30,8 @@ body {
 
 .caja, .cajaEmpresa {
   font-size: 25px;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
 }
 
 .cajaEmpresa {
@@ -64,19 +64,24 @@ header {
   background-color: white;
   justify-content: space-between;
 }
-header img {
+header nav {
+  margin: 5px;
+  padding: 5px;
+}
+header nav img {
   width: 200px;
   margin-left: 30px;
 }
-header ul {
+header nav ul {
   list-style-type: none;
   font-size: 25px;
   display: flex;
 }
-header ul li a {
+header nav ul li .nav-link {
   text-decoration: none;
   color: black;
   font-weight: 700;
+  font-size: 20px;
 }
 
 /*MAIN*/
@@ -91,23 +96,23 @@ main section {
 main section h1 {
   color: white;
   text-align: right;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 800;
 }
 main section h2 {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 30px;
   color: black;
 }
 main section h3 {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 800;
   color: black;
 }
 main section h4 {
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   margin-top: 20px;
   font-weight: 800;
   color: black;
@@ -161,7 +166,7 @@ main section div {
 /*TITULOS*/
 #tituloEmpresa, #tituloContacto, .tituloSecundario, .titulos {
   background-color: #ff1616;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   margin: 5px;
   padding: 5px;
@@ -173,7 +178,7 @@ main section div {
 }
 
 .tituloIndex {
-  font-size: 50px;
+  font-size: 40px;
   text-align: right;
   margin: 5px;
   padding: 5px;
@@ -187,12 +192,12 @@ main section div {
 }
 
 .tituloSecundario {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .card-title {
   text-align: left;
-  font-size: 20px;
+  font-size: 15px;
   color: black;
 }
 

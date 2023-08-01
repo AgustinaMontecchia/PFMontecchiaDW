@@ -23,7 +23,7 @@ body{
 }
 .caja{
     font-size: 25px;
-    @include bordes (10px, 10px);
+    @include bordes (5px, 5px);
 }
 .cajaEmpresa{
     @extend .caja;
