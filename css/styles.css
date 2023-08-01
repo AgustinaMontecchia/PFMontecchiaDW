@@ -53,6 +53,10 @@ body {
   width: 98%;
 }
 
+form {
+  width: 98%;
+}
+
 /*HEADER*/
 header {
   grid-area: header;
@@ -174,8 +178,8 @@ main section div {
   background-color: #ff1616;
   font-size: 50px;
   text-align: center;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   font-weight: 800;
 }
 
@@ -315,11 +319,12 @@ footer div ul li .redes {
   .mapa {
     display: flex;
     justify-content: center;
+    width: 98%;
   }
   /*TITULOS*/
   #tituloEmpresa, #tituloContacto, .titulos, .tituloSecundario {
     background-color: #ff1616;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     margin: 1px;
     padding: 1px;
@@ -329,7 +334,7 @@ footer div ul li .redes {
     color: white;
   }
   .tituloIndex {
-    font-size: 30px;
+    font-size: 25px;
     text-align: right;
     margin: 1px;
     padding: 1px;
@@ -345,7 +350,7 @@ footer div ul li .redes {
   }
   .card-title {
     text-align: left;
-    font-size: 5px;
+    font-size: 10px;
     margin: 5px;
     padding: 5px;
     color: black;
@@ -400,7 +405,7 @@ footer div ul li .redes {
   main section h1 {
     color: white;
     text-align: right;
-    font-size: 30px;
+    font-size: 25px;
     margin: 1px;
     padding: 1px;
     font-weight: 800;
@@ -414,7 +419,7 @@ footer div ul li .redes {
   }
   main section h3 {
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     margin: 5px;
     padding: 1px;
     font-weight: 800;
@@ -422,7 +427,7 @@ footer div ul li .redes {
   }
   main section h4 {
     text-align: center;
-    font-size: 5px;
+    font-size: 10px;
     margin: 5px;
     padding: 1px;
     font-weight: 800;

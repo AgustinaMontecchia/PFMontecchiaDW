@@ -3,7 +3,7 @@
     background-color: map-get($paleta, primary-color);
     font-size: $font-primary-size;
     text-align: center;
-    @include bordes (10px, 10px);
+    @include bordes (5px, 5px);
     font-weight: 800;
 }
 #tituloContacto{
