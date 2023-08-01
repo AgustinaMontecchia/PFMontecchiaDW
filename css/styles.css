@@ -42,6 +42,7 @@ body {
 .mapa {
   display: flex;
   justify-content: center;
+  width: 50%;
 }
 
 .card {
@@ -53,8 +54,8 @@ body {
   width: 98%;
 }
 
-form {
-  width: 98%;
+.cuestionario {
+  width: 50%;
 }
 
 /*HEADER*/

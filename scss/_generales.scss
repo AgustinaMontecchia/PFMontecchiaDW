@@ -30,6 +30,7 @@ body{
 }
 .mapa{
     @include flex-center;
+    width: 50%;
 }
 .card{
     @include bordes (5px, 5px);
@@ -37,6 +38,6 @@ body{
 .row{
     width: 98%;
 }
-form{
-    width: 98%;
+.cuestionario{
+    width: 50%;
 }
