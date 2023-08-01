@@ -45,15 +45,6 @@
         }
     }
     /*GENERALES*/
-    body{
-        display: grid;
-        grid-template-areas: 
-        "header header header header"
-        "main main main main"
-        "main main main main"
-        "footer footer footer footer"
-        ;
-    }
     .btn{
         background-image: linear-gradient(to left, #d83535, #db3234, #de2e32, #e02a31, #e3262f);
         color: map-get($paleta, secondary-color);
@@ -71,7 +62,6 @@
     }
     .mapa{
         @include flex-center;
-        width: 50%;
     }
     /*TITULOS*/
     #tituloEmpresa{
@@ -106,7 +96,7 @@
         font-size: $font-four-size-query;
         @include bordes (5px, 5px);
         color: map-get($paleta, terciary-color);
-        }
+    }
     /*HEADER*/
     header{
         grid-area: header;
@@ -189,9 +179,6 @@
                 @include bordes (1px, 1px);
             }
             iframe{
-                @include bordes (1px, 1px);
-            }
-            form{
                 @include bordes (1px, 1px);
             }
             div{

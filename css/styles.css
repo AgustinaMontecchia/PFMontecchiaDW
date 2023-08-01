@@ -14,6 +14,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
+/*GRILLA GRID*/
 body {
   display: grid;
   grid-template-areas: "header header header header" "main main main main" "main main main main" "footer footer footer footer";
@@ -21,6 +22,7 @@ body {
   grid-template-rows: repeat(1, 4fr);
 }
 
+/*BOTONES*/
 .btn {
   background-image: linear-gradient(to left, #d83535, #db3234, #de2e32, #e02a31, #e3262f);
   color: white;
@@ -44,7 +46,6 @@ body {
 .mapa {
   display: flex;
   justify-content: center;
-  width: 50%;
 }
 
 .card {
@@ -295,10 +296,6 @@ footer div ul li .redes {
     width: 20px;
   }
   /*GENERALES*/
-  body {
-    display: grid;
-    grid-template-areas: "header header header header" "main main main main" "main main main main" "footer footer footer footer";
-  }
   .btn {
     background-image: linear-gradient(to left, #d83535, #db3234, #de2e32, #e02a31, #e3262f);
     color: white;
@@ -318,7 +315,6 @@ footer div ul li .redes {
   .mapa {
     display: flex;
     justify-content: center;
-    width: 50%;
   }
   /*TITULOS*/
   #tituloEmpresa, #tituloContacto, .titulos, .tituloSecundario {
@@ -452,10 +448,6 @@ footer div ul li .redes {
     padding: 1px;
   }
   main section iframe {
-    margin: 1px;
-    padding: 1px;
-  }
-  main section form {
     margin: 1px;
     padding: 1px;
   }
