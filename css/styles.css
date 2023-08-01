@@ -44,6 +44,11 @@ body {
   justify-content: center;
 }
 
+.card {
+  margin: 5px;
+  padding: 5px;
+}
+
 /*HEADER*/
 header {
   grid-area: header;

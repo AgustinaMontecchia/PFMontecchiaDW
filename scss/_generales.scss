@@ -31,3 +31,6 @@ body{
 .mapa{
     @include flex-center;
 }
+.card{
+    @include bordes (5px, 5px);
+}
