@@ -22,12 +22,12 @@ body{
     color: map-get($paleta, secondary-color);
 }
 .caja{
-    font-size: 25px;
     @include bordes (5px, 5px);
+    justify-content: center;
 }
 .cajaEmpresa{
     @extend .caja;
-    justify-content: center;
+
 }
 .carousel{
     @include bordes(5px, 5px);

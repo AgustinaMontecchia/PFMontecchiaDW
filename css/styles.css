@@ -29,12 +29,8 @@ body {
 }
 
 .caja, .cajaEmpresa {
-  font-size: 25px;
   margin: 5px;
   padding: 5px;
-}
-
-.cajaEmpresa {
   justify-content: center;
 }
 
@@ -236,20 +232,12 @@ footer div ul li .redes {
 @media (min-width: 320px) and (max-width: 480px) {
   /*GENERALES*/
   .caja, .cajaEmpresa {
-    font-size: 5px;
     margin: 1px;
     padding: 1px;
   }
   /*HEADER*/
-  header div {
-    margin: 0px;
-    padding: 0px;
-  }
-  header div img {
+  header nav img {
     width: 50px;
-  }
-  header nav ul {
-    margin-left: 5px;
   }
   header nav ul li {
     margin: 1px;
@@ -257,6 +245,7 @@ footer div ul li .redes {
   }
   header nav ul li .nav-link {
     font-size: 13px;
+    margin-left: 5px;
   }
   /*MAIN*/
   main section article h1 {
