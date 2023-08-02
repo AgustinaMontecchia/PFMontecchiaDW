@@ -139,6 +139,7 @@ main section article div {
   display: grid;
 }
 main section article div .card-title {
+  text-align: left;
   font-size: 15px;
   color: black;
 }
@@ -251,15 +252,12 @@ footer div ul li .redes {
     margin: 1px;
     padding: 1px;
   }
-  header nav ul {
-    font-size: 5px;
-  }
   header nav ul li {
     margin: 1px;
     padding: 1px;
   }
   header nav ul li .nav-link {
-    font-size: 15px;
+    font-size: 13px;
   }
   /*MAIN*/
   main section article h1 {
@@ -269,10 +267,10 @@ footer div ul li .redes {
     font-size: 20px;
   }
   main section article h3 {
-    font-size: 15px;
+    font-size: 18px;
   }
   main section article h4 {
-    font-size: 10px;
+    font-size: 13px;
   }
   main section article img {
     margin: 1px;
@@ -280,10 +278,10 @@ footer div ul li .redes {
     width: 50%;
   }
   main section article ul li {
-    font-size: 5px;
+    font-size: 8px;
   }
   main section article p {
-    font-size: 5px;
+    font-size: 13px;
   }
   main section article iframe {
     margin: 1px;
@@ -293,10 +291,10 @@ footer div ul li .redes {
     margin-top: 5px;
   }
   main section article div .card-title {
-    font-size: 10px;
+    font-size: 13px;
   }
   main section article div .card-text {
-    font-size: 10px;
+    font-size: 13px;
   }
   /*FONDOS*/
   .fondoIndex, .fondoPinturas, .fondoAccesorios {

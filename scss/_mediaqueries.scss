@@ -18,11 +18,10 @@
         nav{
             @include bordes (1px, 1px);
             ul{
-                font-size: 5px;
                 li{
                     @include bordes (1px, 1px);
                     .nav-link{
-                        font-size: $font-terciary-size-query;
+                        font-size: $font-four-size-query;
                     }
                 }
             }
@@ -50,11 +49,11 @@
             }
             ul{
                 li{
-                    font-size: 5px;
+                    font-size: 8px;
                 }
             }
             p{
-                font-size: 5px;
+                font-size: $font-four-size-query;
             }
             iframe{
                 @include bordes (1px, 1px);
