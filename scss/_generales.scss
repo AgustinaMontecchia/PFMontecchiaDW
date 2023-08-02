@@ -27,7 +27,9 @@ body{
 }
 .cajaEmpresa{
     @extend .caja;
-
+}
+.condiciones{
+    display: flex;
 }
 .carousel{
     @include bordes(5px, 5px);
