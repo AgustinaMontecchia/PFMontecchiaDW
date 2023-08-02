@@ -248,9 +248,8 @@ footer div ul li .redes {
   header div img {
     width: 50px;
   }
-  header nav {
-    margin: 1px;
-    padding: 1px;
+  header nav ul {
+    margin-left: 5px;
   }
   header nav ul li {
     margin: 1px;
@@ -278,7 +277,7 @@ footer div ul li .redes {
     width: 50%;
   }
   main section article ul li {
-    font-size: 8px;
+    font-size: 13px;
   }
   main section article p {
     font-size: 13px;
