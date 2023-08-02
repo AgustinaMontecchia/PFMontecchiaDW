@@ -29,24 +29,6 @@ body{
     @extend .caja;
     justify-content: center;
 }
-.nuestrasMarcas{
-    @include flex-center;
-}
-.mapa{
-    @include flex-center;
-}
-.card{
-    @include bordes (5px, 5px);
-}
-.card-text{
-    font-size: $font-four-size;
-}
-.card-title{
-    font-size: $font-terciary-size;
-}
-.row{
-    width: 98%;
-}
 .carousel{
     @include bordes(5px, 5px);
 }

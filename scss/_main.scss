@@ -6,7 +6,11 @@ main{
     section{
         display: grid;
         article{
-            width: 100%;
+            width: 98%;
+            @include bordes(5px, 5px);
+            .nuestrasMarcas{
+            @include flex-center;
+            }
             h1{
                 color: map-get($paleta, secondary-color);
                 text-align: right;
@@ -32,7 +36,7 @@ main{
                 color: map-get($paleta, terciary-color);
             }
             img{
-                @include bordes (10px, 10px);;
+                @include bordes (10px, 10px);
             }
             ul{
                 li{
@@ -41,19 +45,27 @@ main{
                 }
             }
             p{
-                font-size: 20px;
-                @include bordes (1px, 1px);
+                font-size: 18px;
+                @include bordes (5px, 5px);
             }
             iframe{
                 @include bordes (10px, 10px);
                 width: 50%;
             }
-            form{
-                @include bordes (10px, 10px);
+            .mapa{
+                @include flex-center;
             }
             div{
                 margin-top: 10px;
                 display: grid;
+                .card-title{
+                    font-size: $font-four-size;
+                    color: map-get($paleta, terciary-color);
+                }
+                .card-text{
+                    font-size: $font-four-size;
+                    color: map-get($paleta, terciary-color);
+                }
             }
         }
     }

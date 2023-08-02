@@ -26,8 +26,3 @@
     font-size: $font-secondary-size;
     @extend #tituloContacto;
 }
-.card-title{
-    text-align: left;
-    font-size: $font-four-size;
-    color: map-get($paleta, terciary-color);
-}

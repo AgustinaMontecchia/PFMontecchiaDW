@@ -38,33 +38,6 @@ body {
   justify-content: center;
 }
 
-.nuestrasMarcas {
-  display: flex;
-  justify-content: center;
-}
-
-.mapa {
-  display: flex;
-  justify-content: center;
-}
-
-.card {
-  margin: 5px;
-  padding: 5px;
-}
-
-.card-text {
-  font-size: 15px;
-}
-
-.card-title {
-  font-size: 20px;
-}
-
-.row {
-  width: 98%;
-}
-
 .carousel {
   margin: 5px;
   padding: 5px;
@@ -106,7 +79,13 @@ main section {
   display: grid;
 }
 main section article {
-  width: 100%;
+  width: 98%;
+  margin: 5px;
+  padding: 5px;
+}
+main section article .nuestrasMarcas {
+  display: flex;
+  justify-content: center;
 }
 main section article h1 {
   color: white;
@@ -142,22 +121,30 @@ main section article ul li {
   padding: 1px;
 }
 main section article p {
-  font-size: 20px;
-  margin: 1px;
-  padding: 1px;
+  font-size: 18px;
+  margin: 5px;
+  padding: 5px;
 }
 main section article iframe {
   margin: 10px;
   padding: 10px;
   width: 50%;
 }
-main section article form {
-  margin: 10px;
-  padding: 10px;
+main section article .mapa {
+  display: flex;
+  justify-content: center;
 }
 main section article div {
   margin-top: 10px;
   display: grid;
+}
+main section article div .card-title {
+  font-size: 15px;
+  color: black;
+}
+main section article div .card-text {
+  font-size: 15px;
+  color: black;
 }
 
 /*FONDOS*/
@@ -211,12 +198,6 @@ main section article div {
   font-size: 30px;
 }
 
-.card-title {
-  text-align: left;
-  font-size: 15px;
-  color: black;
-}
-
 /*FOOTER*/
 footer {
   grid-area: footer;
@@ -252,43 +233,99 @@ footer div ul li .redes {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  /*FONDOS*/
-  .fondoIndex, .fondoPinturas, .fondoAccesorios {
-    background-image: url(../img/inicio.png);
-    height: 30vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  /*GENERALES*/
+  .caja, .cajaEmpresa {
+    font-size: 5px;
     margin: 1px;
     padding: 1px;
   }
-  .fondoPinturas, .fondoAccesorios {
-    background-image: url(../img/pinturas.png);
-  }
-  .fondoAccesorios {
-    background-image: url(../img/accesorios.png);
-  }
-  /*FOOTER*/
-  footer {
-    grid-area: footer;
-    background-color: #ff1616;
-    margin: 5px;
-    padding: 1px;
-    display: flex;
-    justify-content: space-between;
-  }
-  footer div {
+  /*HEADER*/
+  header div {
     margin: 0px;
     padding: 0px;
   }
+  header div img {
+    width: 50px;
+  }
+  header nav {
+    margin: 1px;
+    padding: 1px;
+  }
+  header nav ul {
+    font-size: 5px;
+  }
+  header nav ul li {
+    margin: 1px;
+    padding: 1px;
+  }
+  header nav ul li .nav-link {
+    font-size: 15px;
+  }
+  /*MAIN*/
+  main section article h1 {
+    font-size: 25px;
+  }
+  main section article h2 {
+    font-size: 20px;
+  }
+  main section article h3 {
+    font-size: 15px;
+  }
+  main section article h4 {
+    font-size: 10px;
+  }
+  main section article img {
+    margin: 1px;
+    padding: 1px;
+    width: 50%;
+  }
+  main section article ul li {
+    font-size: 5px;
+  }
+  main section article p {
+    font-size: 5px;
+  }
+  main section article iframe {
+    margin: 1px;
+    padding: 1px;
+  }
+  main section article div {
+    margin-top: 5px;
+  }
+  main section article div .card-title {
+    font-size: 10px;
+  }
+  main section article div .card-text {
+    font-size: 10px;
+  }
+  /*FONDOS*/
+  .fondoIndex, .fondoPinturas, .fondoAccesorios {
+    height: 30vh;
+    margin: 1px;
+    padding: 1px;
+  }
+  /*TITULOS*/
+  #tituloEmpresa, #tituloContacto, .titulos, .tituloSecundario {
+    font-size: 25px;
+    margin: 1px;
+    padding: 1px;
+  }
+  .tituloIndex {
+    font-size: 25px;
+    margin: 1px;
+    padding: 1px;
+    margin-top: 10vh;
+  }
+  .tituloSecundario {
+    font-size: 20px;
+  }
+  /*FOOTER*/
   footer div .logo {
     width: 50px;
   }
   footer div ul {
-    list-style-type: none;
     margin: 1px;
     padding: 1px;
-    display: flex;
   }
   footer div ul li {
     margin: 1px;
@@ -300,174 +337,6 @@ footer div ul li .redes {
   }
   footer div ul li .redes {
     width: 20px;
-  }
-  /*GENERALES*/
-  .btn {
-    background-image: linear-gradient(to left, #d83535, #db3234, #de2e32, #e02a31, #e3262f);
-    color: white;
-  }
-  .caja, .cajaEmpresa {
-    font-size: 5px;
-    margin: 1px;
-    padding: 1px;
-  }
-  .cajaEmpresa {
-    justify-content: center;
-  }
-  .nuestrasMarcas {
-    display: flex;
-    justify-content: center;
-  }
-  .mapa {
-    display: flex;
-    justify-content: center;
-    width: 400px;
-    height: 200px;
-  }
-  .card-text {
-    font-size: 10px;
-  }
-  .card-title {
-    font-size: 15px;
-  }
-  /*TITULOS*/
-  #tituloEmpresa, #tituloContacto, .titulos, .tituloSecundario {
-    background-color: #ff1616;
-    font-size: 25px;
-    text-align: center;
-    margin: 1px;
-    padding: 1px;
-    font-weight: 800;
-  }
-  #tituloContacto, .titulos, .tituloSecundario {
-    color: white;
-  }
-  .tituloIndex {
-    font-size: 25px;
-    text-align: right;
-    margin: 1px;
-    padding: 1px;
-    color: black;
-    margin-top: 10vh;
-    font-weight: 800;
-  }
-  .titulos {
-    text-align: right;
-  }
-  .tituloSecundario {
-    font-size: 20px;
-  }
-  .card-title {
-    text-align: left;
-    font-size: 10px;
-    margin: 5px;
-    padding: 5px;
-    color: black;
-  }
-  /*HEADER*/
-  header {
-    grid-area: header;
-    background-color: white;
-    justify-content: space-between;
-  }
-  header div {
-    margin: 0px;
-    padding: 0px;
-  }
-  header div img {
-    width: 50px;
-    margin-left: 30px;
-  }
-  header nav {
-    margin: 1px;
-    padding: 1px;
-  }
-  header nav ul {
-    list-style-type: none;
-    font-size: 5px;
-    margin: 1px;
-    padding: 1px;
-    display: flex;
-  }
-  header nav ul li {
-    margin: 1px;
-    padding: 1px;
-  }
-  header nav ul li a {
-    text-decoration: none;
-    color: black;
-    margin: 1px;
-    padding: 1px;
-    font-weight: 700;
-  }
-  /*MAIN*/
-  main {
-    margin-top: 10px;
-    grid-area: main;
-    display: grid;
-  }
-  main section {
-    margin: 0px;
-    padding: 0px;
-    display: grid;
-  }
-  main section h1 {
-    color: white;
-    text-align: right;
-    font-size: 25px;
-    margin: 1px;
-    padding: 1px;
-    font-weight: 800;
-  }
-  main section h2 {
-    margin: 1px;
-    padding: 1px;
-    font-weight: 600;
-    font-size: 20px;
-    color: black;
-  }
-  main section h3 {
-    text-align: center;
-    font-size: 15px;
-    margin: 5px;
-    padding: 1px;
-    font-weight: 800;
-    color: black;
-  }
-  main section h4 {
-    text-align: center;
-    font-size: 10px;
-    margin: 5px;
-    padding: 1px;
-    font-weight: 800;
-    color: black;
-  }
-  main section img {
-    margin: 1px;
-    padding: 1px;
-    width: 50%;
-  }
-  main section ul {
-    margin: 1px;
-    padding: 1px;
-  }
-  main section ul li {
-    font-size: 5px;
-    margin: 1px;
-    padding: 1px;
-  }
-  main section p {
-    font-size: 5px;
-    margin: 1px;
-    padding: 1px;
-  }
-  main section iframe {
-    margin: 1px;
-    padding: 1px;
-  }
-  main section div {
-    margin-top: 5px;
-    display: grid;
   }
 }
 
