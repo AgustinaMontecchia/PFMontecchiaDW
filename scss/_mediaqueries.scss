@@ -1,4 +1,4 @@
-@media (min-width:320px) and (max-width:480px){
+@media (min-width:320px) and (max-width:576px){
     /*GENERALES*/
     .caja{
         @include bordes (1px, 1px);
@@ -60,6 +60,7 @@
             }
             div{
                 margin-top: 5px;
+                margin-bottom: 5px;
                 .card-title{
                     font-size: $font-four-size-query;
                 }

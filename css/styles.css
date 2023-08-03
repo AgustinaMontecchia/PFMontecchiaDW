@@ -130,6 +130,7 @@ main section article .mapa {
 }
 main section article div {
   margin-top: 10px;
+  margin-bottom: 10px;
   display: grid;
 }
 main section article div .card-title {
@@ -234,7 +235,7 @@ footer div ul li .redes {
   width: 50px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 576px) {
   /*GENERALES*/
   .caja, .cajaEmpresa {
     margin: 1px;
@@ -284,6 +285,7 @@ footer div ul li .redes {
   }
   main section article div {
     margin-top: 5px;
+    margin-bottom: 5px;
   }
   main section article div .card-title {
     font-size: 13px;
