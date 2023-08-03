@@ -1,11 +1,5 @@
 @media (min-width:320px) and (max-width:576px){
     /*GENERALES*/
-    .caja{
-        @include bordes (1px, 1px);
-    }
-    .cajaEmpresa{
-        @extend .caja;
-    }
     /*HEADER*/
     header{
         nav{
@@ -87,10 +81,12 @@
         @include bordes (1px, 1px);
     }
     .fondoPinturas{
-        @extend .fondoIndex;
+        height: 30vh;
+        @include bordes (1px, 1px);
     }
     .fondoAccesorios{
-        @extend .fondoIndex;
+        height: 30vh;
+        @include bordes (1px, 1px);
     }
     /*TITULOS*/
     #tituloEmpresa{
@@ -206,6 +202,18 @@
         }
     }
     /*FONDOS*/
+    .fondoIndex{
+        height: 40vh;
+        @include bordes (1px, 1px);
+    }
+    .fondoPinturas{
+        height: 40vh;
+        @include bordes (1px, 1px);
+    }
+    .fondoAccesorios{
+        height: 40vh;
+        @include bordes (1px, 1px);
+    }
     /*TITULOS*/
     #tituloEmpresa{
         font-size: $font-primary-size-query-md;

@@ -241,10 +241,6 @@ footer div ul li .redes {
 
 @media (min-width: 320px) and (max-width: 576px) {
   /*GENERALES*/
-  .caja, .cajaEmpresa {
-    margin: 1px;
-    padding: 1px;
-  }
   /*HEADER*/
   header nav img {
     width: 80px;
@@ -310,6 +306,16 @@ footer div ul li .redes {
   }
   /*FONDOS*/
   .fondoIndex, .fondoPinturas, .fondoAccesorios {
+    height: 30vh;
+    margin: 1px;
+    padding: 1px;
+  }
+  .fondoPinturas, .fondoAccesorios {
+    height: 30vh;
+    margin: 1px;
+    padding: 1px;
+  }
+  .fondoAccesorios {
     height: 30vh;
     margin: 1px;
     padding: 1px;
@@ -416,6 +422,21 @@ footer div ul li .redes {
     font-size: 15px;
   }
   /*FONDOS*/
+  .fondoIndex, .fondoPinturas, .fondoAccesorios {
+    height: 40vh;
+    margin: 1px;
+    padding: 1px;
+  }
+  .fondoPinturas, .fondoAccesorios {
+    height: 40vh;
+    margin: 1px;
+    padding: 1px;
+  }
+  .fondoAccesorios {
+    height: 40vh;
+    margin: 1px;
+    padding: 1px;
+  }
   /*TITULOS*/
   #tituloEmpresa, #tituloContacto, .titulos, .tituloSecundario {
     font-size: 30px;
