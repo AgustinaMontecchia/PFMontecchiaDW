@@ -26,6 +26,8 @@ body {
 .btn {
   background-image: linear-gradient(to left, #d83535, #db3234, #de2e32, #e02a31, #e3262f);
   color: white;
+  margin: 5px;
+  padding: 5px;
 }
 
 .caja, .cajaEmpresa {
@@ -138,6 +140,9 @@ main section article div .card-title {
 main section article div .card-text {
   font-size: 15px;
   color: black;
+}
+main section article div .form-check-label {
+  margin-left: 5px;
 }
 
 /*FONDOS*/
