@@ -31,17 +31,6 @@ body {
 .btn {
   background-image: linear-gradient(to left, #d83535, #db3234, #de2e32, #e02a31, #e3262f);
   color: white;
-  margin: 5px;
-  padding: 5px;
-}
-
-.caja, .cajaEmpresa, .carousel {
-  margin: 5px;
-  padding: 5px;
-}
-
-.condiciones {
-  display: flex;
 }
 
 /*HEADER*/
@@ -78,6 +67,10 @@ main section {
 main section article .nuestrasMarcas {
   display: flex;
   justify-content: center;
+}
+main section article .caja, main section article .cajaEmpresa, main section article .carousel {
+  margin: 5px;
+  padding: 5px;
 }
 main section article h1 {
   color: white;
@@ -144,6 +137,9 @@ main section article div form {
 }
 main section article div form .form-check-label {
   margin-left: 5px;
+}
+main section article div form .condiciones {
+  display: flex;
 }
 
 /*FONDOS*/

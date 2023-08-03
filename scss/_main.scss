@@ -9,6 +9,9 @@ main{
             .nuestrasMarcas{
             @include flex-center;
             }
+            .caja, .cajaEmpresa, .carousel{
+                @include bordes (5px, 5px);
+            }
             h1{
                 color: map-get($paleta, secondary-color);
                 text-align: right;
@@ -69,6 +72,9 @@ main{
                     @include bordes(5px, 5px);
                     .form-check-label{
                         margin-left: 5px;
+                    }
+                    .condiciones{
+                        display: flex;
                     }
                 }
             }

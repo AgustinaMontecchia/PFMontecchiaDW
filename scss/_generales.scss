@@ -21,11 +21,4 @@ body{
 .btn{
     background-image: linear-gradient(to left, #d83535, #db3234, #de2e32, #e02a31, #e3262f);
     color: map-get($paleta, secondary-color);
-    @include bordes(5px, 5px);
-}
-.caja, .cajaEmpresa, .carousel{
-    @include bordes (5px, 5px);
-}
-.condiciones{
-    display: flex;
 }
