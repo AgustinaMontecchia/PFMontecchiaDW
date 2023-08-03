@@ -5,11 +5,12 @@ main{
     display: grid;
     section{
         display: grid;
+        }
         article{
             .nuestrasMarcas{
             @include flex-center;
             }
-            .caja, .cajaEmpresa, .carousel{
+            .caja, .cajaEmpresa{
                 @include bordes (5px, 5px);
             }
             h1{
@@ -80,4 +81,3 @@ main{
             }
         }
     }
-}
