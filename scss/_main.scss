@@ -50,7 +50,8 @@ main{
             }
             iframe{
                 @include bordes (10px, 10px);
-                width: 50%;
+                width: 600px; 
+                height: 450px;
             }
             .mapa{
                 @include flex-center;

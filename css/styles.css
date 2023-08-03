@@ -128,7 +128,8 @@ main section article p {
 main section article iframe {
   margin: 10px;
   padding: 10px;
-  width: 50%;
+  width: 600px;
+  height: 450px;
 }
 main section article .mapa {
   display: flex;
@@ -278,6 +279,8 @@ footer div ul li .redes {
   main section article iframe {
     margin: 1px;
     padding: 1px;
+    width: 99%;
+    height: 99%;
   }
   main section article div {
     margin-top: 5px;

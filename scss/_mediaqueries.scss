@@ -55,6 +55,8 @@
             }
             iframe{
                 @include bordes (1px, 1px);
+                width: 99%;
+                height: 99%;
             }
             div{
                 margin-top: 5px;
