@@ -4,7 +4,6 @@ header{
     background-color: map-get($paleta, secondary-color);
     justify-content: space-between;
     nav{
-        @include bordes(5px, 5px);
         img{
             width: 200px;
             margin-left: 30px;

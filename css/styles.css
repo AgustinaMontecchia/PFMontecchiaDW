@@ -49,10 +49,6 @@ header {
   background-color: white;
   justify-content: space-between;
 }
-header nav {
-  margin: 5px;
-  padding: 5px;
-}
 header nav img {
   width: 200px;
   margin-left: 30px;
@@ -77,11 +73,6 @@ main {
 }
 main section {
   display: grid;
-}
-main section article {
-  width: 98%;
-  margin: 5px;
-  padding: 5px;
 }
 main section article .nuestrasMarcas {
   display: flex;

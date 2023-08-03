@@ -6,8 +6,7 @@ main{
     section{
         display: grid;
         article{
-            width: 98%;
-            @include bordes(5px, 5px);
+            
             .nuestrasMarcas{
             @include flex-center;
             }
