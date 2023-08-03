@@ -3,7 +3,10 @@
 /*H1*/
 /*H2*/ /*H3*/
 /*IMAGENES*/
-/*MEDIAS QUERIES*/
+/*MEDIAS QUERIES SM(min-width:320px) and (max-width:576px)*/
+/*H1*/
+/*H2*/ /*H3*/
+/*MEDIAS QUERIES MD(min-width:577px) and (max-width:768px)*/
 /*H1*/
 /*H2*/ /*H3*/
 /*COLORES*/
@@ -98,7 +101,7 @@ main section article h3 {
 }
 main section article h4 {
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 20px;
   font-weight: 800;
   color: black;
@@ -113,7 +116,7 @@ main section article ul li {
   padding: 1px;
 }
 main section article p {
-  font-size: 18px;
+  font-size: 20px;
   margin: 5px;
   padding: 5px;
 }
@@ -136,11 +139,11 @@ main section article div {
 }
 main section article div .card-title {
   text-align: left;
-  font-size: 15px;
+  font-size: 18px;
   color: black;
 }
 main section article div .card-text {
-  font-size: 15px;
+  font-size: 18px;
   color: black;
 }
 main section article div form {
@@ -287,6 +290,18 @@ footer div ul li .redes {
     margin-top: 5px;
     margin-bottom: 5px;
   }
+  main section article div .form-label {
+    font-size: 13px;
+  }
+  main section article div .form-text {
+    font-size: 13px;
+  }
+  main section article div .form-control {
+    font-size: 13px;
+  }
+  main section article div .form-check-label {
+    font-size: 13px;
+  }
   main section article div .card-title {
     font-size: 13px;
   }
@@ -305,11 +320,17 @@ footer div ul li .redes {
     margin: 1px;
     padding: 1px;
   }
+  #tituloContacto, .titulos, .tituloSecundario {
+    font-size: 25px;
+  }
   .tituloIndex {
     font-size: 25px;
     margin: 1px;
     padding: 1px;
     margin-top: 10vh;
+  }
+  .titulos {
+    font-size: 25px;
   }
   .tituloSecundario {
     font-size: 20px;
@@ -345,21 +366,21 @@ footer div ul li .redes {
     padding: 1px;
   }
   header nav ul li .nav-link {
-    font-size: 13px;
+    font-size: 15px;
     margin-left: 5px;
   }
   /*MAIN*/
   main section article h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
   main section article h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
   main section article h3 {
-    font-size: 18px;
+    font-size: 20px;
   }
   main section article h4 {
-    font-size: 13px;
+    font-size: 15px;
   }
   main section article img {
     margin: 5px;
@@ -367,23 +388,51 @@ footer div ul li .redes {
     width: 100%;
   }
   main section article ul li {
-    font-size: 13px;
+    font-size: 15px;
   }
   main section article p {
-    font-size: 13px;
+    font-size: 15px;
   }
   main section article div {
     margin-top: 5px;
     margin-bottom: 5px;
   }
+  main section article div .form-label {
+    font-size: 15px;
+  }
+  main section article div .form-text {
+    font-size: 15px;
+  }
+  main section article div .form-control {
+    font-size: 15px;
+  }
+  main section article div .form-check-label {
+    font-size: 15px;
+  }
   main section article div .card-title {
-    font-size: 13px;
+    font-size: 15px;
   }
   main section article div .card-text {
-    font-size: 13px;
+    font-size: 15px;
   }
   /*FONDOS*/
   /*TITULOS*/
+  #tituloEmpresa, #tituloContacto, .titulos, .tituloSecundario {
+    font-size: 30px;
+  }
+  #tituloContacto, .titulos, .tituloSecundario {
+    font-size: 30px;
+  }
+  .tituloIndex {
+    font-size: 30px;
+    margin-top: 10vh;
+  }
+  .titulos {
+    font-size: 30px;
+  }
+  .tituloSecundario {
+    font-size: 25px;
+  }
   /*FOOTER*/
   footer div .logo {
     width: 100px;

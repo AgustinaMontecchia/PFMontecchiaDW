@@ -6,7 +6,6 @@ main{
     section{
         display: grid;
         article{
-            
             .nuestrasMarcas{
             @include flex-center;
             }
@@ -39,12 +38,12 @@ main{
             }
             ul{
                 li{
-                    font-size: 20px;
+                    font-size: $font-terciary-size;
                     @include bordes (1px, 1px);
                 }
             }
             p{
-                font-size: 18px;
+                font-size: $font-terciary-size;
                 @include bordes (5px, 5px);
             }
             iframe{

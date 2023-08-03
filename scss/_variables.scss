@@ -7,16 +7,23 @@ $font-primary-size: 40px;
 /*H2*//*H3*/
 $font-secondary-size: 30px;
 $font-terciary-size: 20px;
-$font-four-size: 15px;
+$font-four-size: 18px;
 /*IMAGENES*/
 $vh-height: 100vh;
-/*MEDIAS QUERIES*/
+/*MEDIAS QUERIES SM(min-width:320px) and (max-width:576px)*/
 /*H1*/
 $font-primary-size-query: 25px;
 /*H2*//*H3*/
 $font-secondary-size-query: 20px;
 $font-terciary-size-query: 18px;
 $font-four-size-query: 13px;
+/*MEDIAS QUERIES MD(min-width:577px) and (max-width:768px)*/
+/*H1*/
+$font-primary-size-query-md: 30px;
+/*H2*//*H3*/
+$font-secondary-size-query-md: 25px;
+$font-terciary-size-query-md: 20px;
+$font-four-size-query-md: 15px;
 /*COLORES*/
 $paleta:(
     primary-color: #ff1616,

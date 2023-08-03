@@ -60,6 +60,18 @@
             div{
                 margin-top: 5px;
                 margin-bottom: 5px;
+                .form-label{
+                    font-size: $font-four-size-query;
+                }
+                .form-text{
+                    font-size: $font-four-size-query;
+                }
+                .form-control{
+                    font-size: $font-four-size-query;
+                }
+                .form-check-label{
+                    font-size: $font-four-size-query;
+                }
                 .card-title{
                     font-size: $font-four-size-query;
                 }
@@ -86,7 +98,7 @@
         @include bordes (1px, 1px);
     }
     #tituloContacto{
-        @extend #tituloEmpresa;
+        font-size: $font-primary-size-query;
     }
     .tituloIndex{
         font-size: $font-primary-size-query;
@@ -94,11 +106,10 @@
         margin-top: 10vh;
     }
     .titulos{
-        @extend #tituloContacto;
+        font-size: $font-primary-size-query;
     }
     .tituloSecundario{
         font-size: $font-secondary-size-query;
-        @extend #tituloContacto;
     }
     /*FOOTER*/
     footer{
@@ -135,7 +146,7 @@
                 li{
                     @include bordes (1px, 1px);
                     .nav-link{
-                        font-size: $font-four-size-query;
+                        font-size: $font-four-size-query-md;
                         margin-left: 5px;
                     }
                 }
@@ -146,17 +157,17 @@
     main{
         section article{
             h1{
-                font-size: $font-primary-size-query;
+                font-size: $font-primary-size-query-md;
             }
             h2{
-                font-size: $font-secondary-size-query;
+                font-size: $font-secondary-size-query-md;
             }
             h3{
                 
-                font-size: $font-terciary-size-query;
+                font-size: $font-terciary-size-query-md;
             }
             h4{
-                font-size: $font-four-size-query;
+                font-size: $font-four-size-query-md;
             }
             img{
                 @include bordes (5px, 5px);
@@ -164,26 +175,54 @@
             }
             ul{
                 li{
-                    font-size: $font-four-size-query;
+                    font-size: $font-four-size-query-md;
                 }
             }
             p{
-                font-size: $font-four-size-query;
+                font-size: $font-four-size-query-md;
             }
             div{
                 margin-top: 5px;
                 margin-bottom: 5px;
+                .form-label{
+                    font-size: $font-four-size-query-md;
+                }
+                .form-text{
+                    font-size: $font-four-size-query-md;
+                }
+                .form-control{
+                    font-size: $font-four-size-query-md;
+                }
+                .form-check-label{
+                    font-size: $font-four-size-query-md;
+                }
                 .card-title{
-                    font-size: $font-four-size-query;
+                    font-size: $font-four-size-query-md;
                 }
                 .card-text{
-                    font-size: $font-four-size-query;
+                    font-size: $font-four-size-query-md;
                 }
             }
         }
     }
     /*FONDOS*/
     /*TITULOS*/
+    #tituloEmpresa{
+        font-size: $font-primary-size-query-md;
+    }
+    #tituloContacto{
+        font-size: $font-primary-size-query-md;
+    }
+    .tituloIndex{
+        font-size: $font-primary-size-query-md;
+        margin-top: 10vh;
+    }
+    .titulos{
+        font-size: $font-primary-size-query-md;
+    }
+    .tituloSecundario{
+        font-size: $font-secondary-size-query-md;
+    }
     /*FOOTER*/
     footer{
         div{
