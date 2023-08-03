@@ -6,6 +6,13 @@ main{
     section{
         display: grid;
         }
+        .carousel{
+            width: 100%;
+            @include bordes(5px, 5px);
+            .d-block{
+            width: 100%;
+            }
+        }
         article{
             .nuestrasMarcas{
             @include flex-center;

@@ -64,6 +64,14 @@ main {
 main section {
   display: grid;
 }
+main .carousel {
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+}
+main .carousel .d-block {
+  width: 100%;
+}
 main article .nuestrasMarcas {
   display: flex;
   justify-content: center;
