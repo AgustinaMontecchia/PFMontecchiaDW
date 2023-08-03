@@ -1,8 +1,8 @@
+/*FONTS*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 /*VARIABLES*/
 /*H1*/
 /*H2*/ /*H3*/
-/*IMAGENES*/
 /*MEDIAS QUERIES SM(min-width:320px) and (max-width:576px)*/
 /*H1*/
 /*H2*/ /*H3*/
@@ -10,6 +10,8 @@
 /*H1*/
 /*H2*/ /*H3*/
 /*COLORES*/
+/*MIXIN*/
+/*ESTILOS GENERALES*/
 /*RESET CSS*/
 * {
   padding: 0;
@@ -33,18 +35,13 @@ body {
   padding: 5px;
 }
 
-.caja, .cajaEmpresa {
+.caja, .cajaEmpresa, .carousel {
   margin: 5px;
   padding: 5px;
 }
 
 .condiciones {
   display: flex;
-}
-
-.carousel {
-  margin: 5px;
-  padding: 5px;
 }
 
 /*HEADER*/
@@ -93,18 +90,15 @@ main section article h2 {
   font-size: 30px;
   color: black;
 }
-main section article h3 {
+main section article h3, main section article h4 {
   text-align: center;
   font-size: 20px;
   font-weight: 800;
   color: black;
 }
 main section article h4 {
-  text-align: center;
   font-size: 18px;
   margin-top: 20px;
-  font-weight: 800;
-  color: black;
 }
 main section article img {
   margin: 10px;
@@ -137,14 +131,12 @@ main section article div {
   margin-bottom: 10px;
   display: grid;
 }
-main section article div .card-title {
-  text-align: left;
+main section article div .card-text, main section article div .card-title {
   font-size: 18px;
   color: black;
 }
-main section article div .card-text {
-  font-size: 18px;
-  color: black;
+main section article div .card-title {
+  text-align: left;
 }
 main section article div form {
   margin: 5px;
@@ -227,18 +219,15 @@ footer div ul {
   padding: 5px;
   display: flex;
 }
-footer div ul li {
+footer div ul li, footer div ul a {
   margin: 5px;
   padding: 5px;
 }
-footer div ul li a {
-  margin: 5px;
-  padding: 5px;
-}
-footer div ul li .redes {
+footer div ul .redes {
   width: 50px;
 }
 
+/*MEDIA QUERIES*/
 @media (min-width: 320px) and (max-width: 576px) {
   /*GENERALES*/
   /*HEADER*/
@@ -260,7 +249,7 @@ footer div ul li .redes {
   main section article h2 {
     font-size: 20px;
   }
-  main section article h3 {
+  main section article h3, main section article h4 {
     font-size: 18px;
   }
   main section article h4 {
@@ -286,36 +275,11 @@ footer div ul li .redes {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  main section article div .form-label {
-    font-size: 13px;
-  }
-  main section article div .form-text {
-    font-size: 13px;
-  }
-  main section article div .form-control {
-    font-size: 13px;
-  }
-  main section article div .form-check-label {
-    font-size: 13px;
-  }
-  main section article div .card-title {
-    font-size: 13px;
-  }
-  main section article div .card-text {
+  main section article div .form-label, main section article div .form-text, main section article div .form-control, main section article div .form-check-label, main section article div .card-title, main section article div .card-text {
     font-size: 13px;
   }
   /*FONDOS*/
   .fondoIndex, .fondoPinturas, .fondoAccesorios {
-    height: 30vh;
-    margin: 1px;
-    padding: 1px;
-  }
-  .fondoPinturas, .fondoAccesorios {
-    height: 30vh;
-    margin: 1px;
-    padding: 1px;
-  }
-  .fondoAccesorios {
     height: 30vh;
     margin: 1px;
     padding: 1px;
@@ -334,9 +298,6 @@ footer div ul li .redes {
     margin: 1px;
     padding: 1px;
     margin-top: 10vh;
-  }
-  .titulos {
-    font-size: 25px;
   }
   .tituloSecundario {
     font-size: 20px;
@@ -382,10 +343,10 @@ footer div ul li .redes {
   main section article h2 {
     font-size: 25px;
   }
-  main section article h3 {
+  main section article h3, main section article h4 {
     font-size: 20px;
   }
-  main section article h4 {
+  main section article h4, main section article p {
     font-size: 15px;
   }
   main section article img {
@@ -396,29 +357,11 @@ footer div ul li .redes {
   main section article ul li {
     font-size: 15px;
   }
-  main section article p {
-    font-size: 15px;
-  }
   main section article div {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  main section article div .form-label {
-    font-size: 15px;
-  }
-  main section article div .form-text {
-    font-size: 15px;
-  }
-  main section article div .form-control {
-    font-size: 15px;
-  }
-  main section article div .form-check-label {
-    font-size: 15px;
-  }
-  main section article div .card-title {
-    font-size: 15px;
-  }
-  main section article div .card-text {
+  main section article div .form-label, main section article div .form-text, main section article div .form-control, main section article div .form-check-label, main section article div .card-title, main section article div .card-text {
     font-size: 15px;
   }
   /*FONDOS*/
@@ -427,29 +370,13 @@ footer div ul li .redes {
     margin: 1px;
     padding: 1px;
   }
-  .fondoPinturas, .fondoAccesorios {
-    height: 40vh;
-    margin: 1px;
-    padding: 1px;
-  }
-  .fondoAccesorios {
-    height: 40vh;
-    margin: 1px;
-    padding: 1px;
-  }
   /*TITULOS*/
   #tituloEmpresa, #tituloContacto, .titulos, .tituloSecundario {
-    font-size: 30px;
-  }
-  #tituloContacto, .titulos, .tituloSecundario {
     font-size: 30px;
   }
   .tituloIndex {
     font-size: 30px;
     margin-top: 10vh;
-  }
-  .titulos {
-    font-size: 30px;
   }
   .tituloSecundario {
     font-size: 25px;

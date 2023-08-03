@@ -1,3 +1,4 @@
+/*ESTILOS GENERALES*/
 /*RESET CSS*/
 *{
     padding: 0;
@@ -22,15 +23,9 @@ body{
     color: map-get($paleta, secondary-color);
     @include bordes(5px, 5px);
 }
-.caja{
+.caja, .cajaEmpresa, .carousel{
     @include bordes (5px, 5px);
-}
-.cajaEmpresa{
-    @extend .caja;
 }
 .condiciones{
     display: flex;
-}
-.carousel{
-    @include bordes(5px, 5px);
 }

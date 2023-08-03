@@ -7,8 +7,8 @@
     font-weight: 800;
 }
 #tituloContacto{
-    color: map-get($paleta, secondary-color);
     @extend #tituloEmpresa;
+    color: map-get($paleta, secondary-color);
 }
 .tituloIndex{
     font-size: $font-primary-size;

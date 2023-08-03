@@ -27,11 +27,9 @@ main{
                 color: map-get($paleta, terciary-color);
             }
             h4{
-                text-align: center;
+                @extend h3;
                 font-size: $font-four-size;
                 margin-top: 20px;
-                font-weight: 800;
-                color: map-get($paleta, terciary-color);
             }
             img{
                 @include bordes (10px, 10px);
@@ -59,14 +57,13 @@ main{
                 margin-top: 10px;
                 margin-bottom: 10px;
                 display: grid;
-                .card-title{
-                    text-align: left;
-                    font-size: $font-four-size;
-                    color: map-get($paleta, terciary-color);
-                }
                 .card-text{
                     font-size: $font-four-size;
                     color: map-get($paleta, terciary-color);
+                }
+                .card-title{
+                    @extend .card-text;
+                    text-align: left;
                 }
                 form{
                     @include bordes(5px, 5px);

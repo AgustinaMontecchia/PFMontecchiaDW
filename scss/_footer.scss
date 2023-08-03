@@ -15,14 +15,11 @@ footer{
             list-style-type: none;
             @include bordes (5px, 5px);
             display: flex;
-            li{
+            li, a{
                 @include bordes (5px, 5px);
-                a{
-                    @include bordes (5px, 5px);
-                }
-                .redes{
-                    width: 50px;
-                }
+            }
+            .redes{
+                width: 50px;
             }
         }
     }
