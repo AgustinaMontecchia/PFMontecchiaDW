@@ -67,8 +67,11 @@ main{
                     font-size: $font-four-size;
                     color: map-get($paleta, terciary-color);
                 }
-                .form-check-label{
-                    margin-left: 5px;
+                form{
+                    @include bordes(5px, 5px);
+                    .form-check-label{
+                        margin-left: 5px;
+                    }
                 }
             }
         }

@@ -141,7 +141,11 @@ main section article div .card-text {
   font-size: 15px;
   color: black;
 }
-main section article div .form-check-label {
+main section article div form {
+  margin: 5px;
+  padding: 5px;
+}
+main section article div form .form-check-label {
   margin-left: 5px;
 }
 
