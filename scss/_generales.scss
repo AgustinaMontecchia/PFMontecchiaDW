@@ -24,7 +24,6 @@ body{
 }
 .caja{
     @include bordes (5px, 5px);
-    justify-content: center;
 }
 .cajaEmpresa{
     @extend .caja;

@@ -33,7 +33,6 @@ body {
 .caja, .cajaEmpresa {
   margin: 5px;
   padding: 5px;
-  justify-content: center;
 }
 
 .condiciones {
@@ -243,7 +242,7 @@ footer div ul li .redes {
   }
   /*HEADER*/
   header nav img {
-    width: 50px;
+    width: 80px;
   }
   header nav ul li {
     margin: 1px;
@@ -267,9 +266,9 @@ footer div ul li .redes {
     font-size: 13px;
   }
   main section article img {
-    margin: 1px;
-    padding: 1px;
-    width: 50%;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
   }
   main section article ul li {
     font-size: 13px;
@@ -316,15 +315,15 @@ footer div ul li .redes {
   }
   /*FOOTER*/
   footer div .logo {
-    width: 50px;
+    width: 80px;
   }
   footer div ul {
-    margin: 1px;
-    padding: 1px;
+    margin: 5px;
+    padding: 5px;
   }
   footer div ul li {
-    margin: 1px;
-    padding: 1px;
+    margin: 3px;
+    padding: 3px;
   }
   footer div ul li a {
     margin: 1px;
@@ -332,6 +331,82 @@ footer div ul li .redes {
   }
   footer div ul li .redes {
     width: 20px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  /*GENERALES*/
+  /*HEADER*/
+  header nav img {
+    width: 100px;
+  }
+  header nav ul li {
+    margin: 1px;
+    padding: 1px;
+  }
+  header nav ul li .nav-link {
+    font-size: 13px;
+    margin-left: 5px;
+  }
+  /*MAIN*/
+  main section article h1 {
+    font-size: 25px;
+  }
+  main section article h2 {
+    font-size: 20px;
+  }
+  main section article h3 {
+    font-size: 18px;
+  }
+  main section article h4 {
+    font-size: 13px;
+  }
+  main section article img {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+  main section article ul li {
+    font-size: 13px;
+  }
+  main section article p {
+    font-size: 13px;
+  }
+  main section article iframe {
+    margin: 1px;
+    padding: 1px;
+    width: 90%;
+    height: 90%;
+  }
+  main section article div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  main section article div .card-title {
+    font-size: 13px;
+  }
+  main section article div .card-text {
+    font-size: 13px;
+  }
+  /*FONDOS*/
+  /*TITULOS*/
+  /*FOOTER*/
+  footer div .logo {
+    width: 100px;
+  }
+  footer div ul {
+    margin: 5px;
+    padding: 5px;
+  }
+  footer div ul li {
+    margin: 3px;
+    padding: 3px;
+  }
+  footer div ul li a {
+    margin: 1px;
+    padding: 1px;
+  }
+  footer div ul li .redes {
+    width: 30px;
   }
 }
 

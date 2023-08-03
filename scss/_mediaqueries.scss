@@ -10,7 +10,7 @@
     header{
         nav{
             img{
-                width: 50px;
+                width: 80px;
             }
         }
         nav{
@@ -42,8 +42,8 @@
                 font-size: $font-four-size-query;
             }
             img{
-                @include bordes (1px, 1px);
-                width: 50%;
+                @include bordes (5px, 5px);
+                width: 100%;
             }
             ul{
                 li{
@@ -105,17 +105,106 @@
     footer{
         div{
             .logo{
-                width: 50px;
+                width: 80px;
             }
             ul{
-                @include bordes (1px, 1px);
+                @include bordes (5px, 5px);
                 li{
-                    @include bordes (1px, 1px);
+                    @include bordes (3px, 3px);
                     a{
                         @include bordes (1px, 1px);
                     }
                     .redes{
                         width: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:577px) and (max-width:768px){
+    /*GENERALES*/
+    /*HEADER*/
+    header{
+        nav{
+            img{
+                width: 100px;
+            }
+        }
+        nav{
+            ul{
+                li{
+                    @include bordes (1px, 1px);
+                    .nav-link{
+                        font-size: $font-four-size-query;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+    /*MAIN*/
+    main{
+        section article{
+            h1{
+                font-size: $font-primary-size-query;
+            }
+            h2{
+                font-size: $font-secondary-size-query;
+            }
+            h3{
+                
+                font-size: $font-terciary-size-query;
+            }
+            h4{
+                font-size: $font-four-size-query;
+            }
+            img{
+                @include bordes (5px, 5px);
+                width: 100%;
+            }
+            ul{
+                li{
+                    font-size: $font-four-size-query;
+                }
+            }
+            p{
+                font-size: $font-four-size-query;
+            }
+            iframe{
+                @include bordes (1px, 1px);
+                width: 90%;
+                height: 90%;
+            }
+            div{
+                margin-top: 5px;
+                margin-bottom: 5px;
+                .card-title{
+                    font-size: $font-four-size-query;
+                }
+                .card-text{
+                    font-size: $font-four-size-query;
+                }
+            }
+        }
+    }
+    /*FONDOS*/
+    /*TITULOS*/
+    /*FOOTER*/
+    footer{
+        div{
+            .logo{
+                width: 100px;
+            }
+            ul{
+                @include bordes (5px, 5px);
+                li{
+                    @include bordes (3px, 3px);
+                    a{
+                        @include bordes (1px, 1px);
+                    }
+                    .redes{
+                        width: 30px;
                     }
                 }
             }
