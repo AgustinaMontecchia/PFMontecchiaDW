@@ -37,18 +37,20 @@ body {
 header {
   grid-area: header;
   background-color: white;
-  justify-content: space-between;
 }
-header nav img {
+header nav div {
+  justify-content: center;
+}
+header nav div img {
   width: 200px;
   margin-left: 30px;
 }
-header nav ul {
+header nav div ul {
   list-style-type: none;
   font-size: 25px;
   display: flex;
 }
-header nav ul li .nav-link {
+header nav div ul li .nav-link {
   text-decoration: none;
   color: black;
   font-weight: 700;
@@ -144,6 +146,9 @@ main article div {
 main article div .card-text, main article div .card-title {
   font-size: 18px;
   color: black;
+}
+main article div .card-title {
+  text-align: left;
 }
 main article div form {
   margin: 5px;
@@ -241,14 +246,14 @@ footer div ul .redes {
 @media (min-width: 320px) and (max-width: 576px) {
   /*GENERALES*/
   /*HEADER*/
-  header nav img {
+  header nav div img {
     width: 80px;
   }
-  header nav ul li {
+  header nav div ul li {
     margin: 1px;
     padding: 1px;
   }
-  header nav ul li .nav-link {
+  header nav div ul li .nav-link {
     font-size: 13px;
     margin-left: 5px;
   }
@@ -345,14 +350,14 @@ footer div ul .redes {
 @media (min-width: 577px) and (max-width: 768px) {
   /*GENERALES*/
   /*HEADER*/
-  header nav img {
+  header nav div img {
     width: 100px;
   }
-  header nav ul li {
+  header nav div ul li {
     margin: 1px;
     padding: 1px;
   }
-  header nav ul li .nav-link {
+  header nav div ul li .nav-link {
     font-size: 15px;
     margin-left: 5px;
   }

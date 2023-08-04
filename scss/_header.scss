@@ -2,22 +2,24 @@
 header{
     grid-area: header;
     background-color: map-get($paleta, secondary-color);
-    justify-content: space-between;
-    nav{
-        img{
-            width: 200px;
-            margin-left: 30px;
-        }
-        ul{
-            list-style-type: none;
-            font-size: 25px;
-            display: flex;
-            li{
-                .nav-link{
-                    text-decoration: none;
-                    color: map-get($paleta, terciary-color);
-                    font-weight: 700;
-                    font-size: $font-terciary-size;
+        nav{
+            div{
+                justify-content: center;
+            img{
+                width: 200px;
+                margin-left: 30px;
+            }
+            ul{
+                list-style-type: none;
+                font-size: 25px;
+                display: flex;
+                li{
+                    .nav-link{
+                        text-decoration: none;
+                        color: map-get($paleta, terciary-color);
+                        font-weight: 700;
+                        font-size: $font-terciary-size;
+                    }
                 }
             }
         }

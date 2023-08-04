@@ -81,6 +81,7 @@ main{
                 }
                 .card-title{
                     @extend .card-text;
+                    text-align: left;
                 }
                 form{
                     @include bordes(5px, 5px);
