@@ -21,6 +21,15 @@
     /*MAIN*/
     main{
         section article{
+            .nuestrasMarcas{
+                @include flex-center;
+                    a{
+                        width: 90px;
+                    }
+                    img{
+                        width: 90px;
+                    }
+                }
             h1{
                 font-size: $font-primary-size-query;
             }
@@ -122,6 +131,15 @@
     /*MAIN*/
     main{
         section article{
+            .nuestrasMarcas{
+                @include flex-center;
+                    a{
+                        width: 150px;
+                    }
+                    img{
+                        width: 150px;
+                    }
+                }
             h1{
                 font-size: $font-primary-size-query-md;
             }

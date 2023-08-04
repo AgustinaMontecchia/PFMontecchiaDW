@@ -14,8 +14,15 @@ main{
             }
         }
         article{
+            display: grid;
             .nuestrasMarcas{
             @include flex-center;
+                a{
+                    width: 400px;
+                }
+                img{
+                    width: 400px;
+                }
             }
             .caja, .cajaEmpresa{
                 @include bordes (5px, 5px);
@@ -74,7 +81,6 @@ main{
                 }
                 .card-title{
                     @extend .card-text;
-                    text-align: left;
                 }
                 form{
                     @include bordes(5px, 5px);

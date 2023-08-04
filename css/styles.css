@@ -23,7 +23,7 @@
 body {
   display: grid;
   grid-template-areas: "header header header header" "main main main main" "main main main main" "footer footer footer footer";
-  grid-template-columns: repeat(1, 4fr);
+  grid-template-columns: repeat(1, 12fr);
   grid-template-rows: repeat(1, 4fr);
 }
 
@@ -72,9 +72,18 @@ main .carousel {
 main .carousel .d-block {
   width: 100%;
 }
+main article {
+  display: grid;
+}
 main article .nuestrasMarcas {
   display: flex;
   justify-content: center;
+}
+main article .nuestrasMarcas a {
+  width: 400px;
+}
+main article .nuestrasMarcas img {
+  width: 400px;
 }
 main article .caja, main article .cajaEmpresa {
   margin: 5px;
@@ -135,9 +144,6 @@ main article div {
 main article div .card-text, main article div .card-title {
   font-size: 18px;
   color: black;
-}
-main article div .card-title {
-  text-align: left;
 }
 main article div form {
   margin: 5px;
@@ -247,6 +253,16 @@ footer div ul .redes {
     margin-left: 5px;
   }
   /*MAIN*/
+  main section article .nuestrasMarcas {
+    display: flex;
+    justify-content: center;
+  }
+  main section article .nuestrasMarcas a {
+    width: 90px;
+  }
+  main section article .nuestrasMarcas img {
+    width: 90px;
+  }
   main section article h1 {
     font-size: 25px;
   }
@@ -341,6 +357,16 @@ footer div ul .redes {
     margin-left: 5px;
   }
   /*MAIN*/
+  main section article .nuestrasMarcas {
+    display: flex;
+    justify-content: center;
+  }
+  main section article .nuestrasMarcas a {
+    width: 150px;
+  }
+  main section article .nuestrasMarcas img {
+    width: 150px;
+  }
   main section article h1 {
     font-size: 30px;
   }
