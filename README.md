@@ -26,16 +26,16 @@ This project was created with **clean, maintainable, and scalable CSS** using **
 ## 📦 **How to Run the Project Locally**  
 If you want to download and view this project on your computer, follow these steps:  
 
-1️⃣ **Clone the repository**  
+### 1️⃣  **Clone the repository**  
  ```  bash
    git clone https://github.com/AgustinaMontecchia/PFMontecchiaDW.git
 ```
-2️⃣ Navigate to the project folder
+### 2️⃣ Navigate to the project folder
 ```
 cd PFMontecchiaDW
 ```
 
-3️⃣ Open the ```index.html``` file in your browser
+### 3️⃣ Open the ```index.html``` file in your browser
 📌 You can do this in two ways:
 Option 1: Double-click ```index.html``` in the file explorer.
 Option 2: Use the terminal:
@@ -44,7 +44,7 @@ start index.html  # Windows
 open index.html   # Mac
 ```
 
-4️⃣ (Optional) Editing styles with SASS
+### 4️⃣ (Optional) Editing styles with SASS
 If you want to modify the SASS styles, make sure to compile the ```.scss``` file before updating the CSS.
 
 🖼️ Screenshots
@@ -52,8 +52,12 @@ If you want to modify the SASS styles, make sure to compile the ```.scss``` file
 🌐 Live Deployment
 🚀 [Camiflex - Live Site](https://camiflex.netlify.app/)
 
-🤝 Contributing
-📩 Contact
+### 🤝 Contributing
+
+### 📩 Contact
+
 👩‍💻 Agustina Montecchia
+
 📩 [LinkedIn](https://www.linkedin.com/in/agustinamontecchia/)
+
 📂 [GitHub Profile](https://github.com/AgustinaMontecchia)
