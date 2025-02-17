@@ -27,12 +27,13 @@ This project was created with **clean, maintainable, and scalable CSS** using **
 If you want to download and view this project on your computer, follow these steps:  
 
 ### 1️⃣  **Clone the repository**  
- ```  bash
+ ```bash
    git clone https://github.com/AgustinaMontecchia/PFMontecchiaDW.git
 ```
+
 ### 2️⃣ Navigate to the project folder
-```
-cd PFMontecchiaDW
+```bash
+   cd PFMontecchiaDW
 ```
 
 ### 3️⃣ Open the ```index.html``` file in your browser
